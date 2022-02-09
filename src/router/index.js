@@ -16,6 +16,41 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue"),
   },
+  {
+    path: "/top",
+    name: "Top",
+    component: () => import("../views/Top.vue"),
+  },
+  {
+    path: "/greeting",
+    name: "Greeting",
+    component: () => import("../views/Greeting.vue"),
+  },
+  {
+    path: "/news",
+    name: "News",
+    component: () => import("../views/News.vue"),
+  },
+  {
+    path: "/advertise",
+    name: "Advertise",
+    component: () => import("../views/Advertise.vue"),
+  },
+  {
+    path: "/request",
+    name: "Request",
+    component: () => import("../views/Request.vue"),
+  },
+  {
+    path: "/archive",
+    name: "Archive",
+    component: () => import("../views/Archive.vue"),
+  },
+  {
+    path: "/link",
+    name: "Link",
+    component: () => import("../views/Link.vue"),
+  },
 ];
 
 const router = createRouter({
