@@ -4,7 +4,7 @@
   </div>
   <div class="header_image">
     <p style="text-align:center">
-      <img src="../images/greeting_header.jpg" />
+      <img src="../assets/greeting_header.jpg" />
     </p>
   </div>
   <div class="title">
