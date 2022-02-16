@@ -52,4 +52,7 @@ export default {
   color: #42b983;
 }
 
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
 </style>

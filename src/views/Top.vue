@@ -1,8 +1,6 @@
 <template>
   <div class="top">
-  <!--
-    <img alt="nmu_brass logo" src="../assets/_nmu_brass_logo.png" />
-    -->
+    <img alt="nmu_brass_top" src="../assets/topics_header.jpg" />
     <h1>Osaka Metropolitan University <br /> Brass Band</h1>
     <h5>大阪公立大学吹奏楽部</h5>
     <!--
