@@ -1,9 +1,9 @@
 <template>
-  <Header />
+  <Header v-if="isNotTop"/>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
-    <router-link to="/top">Top</router-link>
+    <router-link to="/" v-on:click="leaveTop">Home</router-link> |
+    <router-link to="/about" v-on:click="leaveTop">About</router-link> |
+    <router-link to="/top" v-on:click="moveTop">Top</router-link>
   </div>
   <router-view />
   <Footer />
@@ -13,6 +13,19 @@
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 export default {
+  data() {
+    return {
+      isNotTop: false
+    }
+  },
+  methods: {
+    moveTop() {
+      this.isNotTop = false
+    },
+    leaveTop() {
+      this.isNotTop = true
+    }
+  },
   components: {
     Header,
     Footer,
@@ -52,4 +65,7 @@ export default {
   color: #42b983;
 }
 
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
 </style>
