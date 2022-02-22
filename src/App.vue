@@ -22,7 +22,9 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'MS-GOTHIC','ROCK';
+  src: url('/assets/fonts/MSGOTHIC.ttf') format('truetype');
+  src: url('/assets/fonts/ROCK.ttf') format('truetype');
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
