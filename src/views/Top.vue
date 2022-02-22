@@ -1,8 +1,10 @@
 <template>
   <div class="top">
-    <img alt="nmu_brass_top" src="../assets/topics_header.jpg" />
-    <h1>Osaka Metropolitan University <br /> Brass Band</h1>
-    <h5>大阪公立大学吹奏楽部</h5>
+    <Header />
+    <div class="name">
+      <h1>Osaka Metropolitan University <br /> Brass Band</h1>
+      <h5>大阪公立大学吹奏楽部</h5>
+    </div>
     <!--
     <Topics />
     <SocialLink />
@@ -12,15 +14,23 @@
 
 <script>
 
+import Header from "@/components/Header.vue";
 //import Topics from "@/components/Topics.vue":
 //import SocialLinks from "@/components/SocialLinks.vue":
 
 export default {
-  name: "Top"
-//  components: {
+  name: "Top",
+  components: {
+    Header,
 //    Topics,
 //    SocialLiks,
-//  },
+  },
 };
+
 </script>
 
+<style>
+.top {
+  background-image: url(../assets/topics_header.jpg);
+}
+</style>
