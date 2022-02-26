@@ -6,6 +6,8 @@
     <h1>ごあいさつ</h1>
   </div>
 
+  <div class="image"><img src="../assets/greeting_header_2.png"></div>
+
   <div class="title">
     <h2>Osaka Metropolitan University Brass Band</h2>
   </div>
@@ -23,17 +25,31 @@
 
 
 <style scoped>
-  .jumbotron { background:url("../assets/greeting_header.jpg") 
+  .jumbotron { background:url("../assets/greeting_header_2.png") 
   center no-repeat; 
-  padding-top: calc(300 / 1000 * 100%);
-  height: 150px;
+  padding-top: calc(200 / 1000 * 100%);
   background-size: cover;
+  width: 100%;
+	height: auto;
+  margin-right: calc(50% - 50vw);
+	margin-left: calc(50% - 50vw);
   }
 .jumbotron h1,
 .jumbotron .h1 {
   color: white;
   font-size: 72px;
   transform: translate(-30px,10px);
+}
+.image {
+	margin-right: calc(50% - 50vw);
+	margin-left: calc(50% - 50vw);
+}
+
+.image img {
+	display: block;
+	width: 100%;
+	height: auto;
+  object-fit: cover
 }
 
 </style>
