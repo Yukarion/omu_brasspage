@@ -1,6 +1,6 @@
 <template>
   <div class="top">
-    <Header />
+    <Header :leaveTop="leaveTop" :moveTop="moveTop"/>
     <div class="name">
       <h1>Osaka Metropolitan University <br /> Brass Band</h1>
       <h5>大阪公立大学吹奏楽部</h5>
@@ -25,6 +25,10 @@ export default {
 //    Topics,
 //    SocialLiks,
   },
+  props: {
+    leaveTop: Function,
+    moveTop: Function
+  }
 };
 
 </script>
