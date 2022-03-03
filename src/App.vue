@@ -22,13 +22,18 @@ export default {
 
 <style>
 #app {
-  font-family: 'MS-GOTHIC';
+  font-family:'ROCK','GOTHIC';
   text-align: center;
   color:black
 }
 @font-face {
-  font-family:'MS-GOTHIC','ROCK';
-  src: url('./assets/fonts/MSGOTHIC.TTF'),url('./assets/fonts/ROCK.TTF')
+  font-family:'ROCK';
+  src:url('./assets/fonts/ROCK.TTF');
+}
+
+@font-face {
+  font-family:'GOTHIC';
+  src:url('./assets/fonts/MSGOTHIC.TTF');
 }
 
 #nav {
