@@ -35,11 +35,18 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family:'ROCK','GOTHIC';
   text-align: center;
-  color: #2c3e50;
+  color:black
+}
+@font-face {
+  font-family:'ROCK';
+  src:url('./assets/fonts/ROCK.TTF');
+}
+
+@font-face {
+  font-family:'GOTHIC';
+  src:url('./assets/fonts/MSGOTHIC.TTF');
 }
 
 #nav {
