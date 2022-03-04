@@ -1,12 +1,12 @@
 <template>
-  <Header v-if="isNotTop"/>
+  <Header v-if="isNotTop" :leaveTop="leaveTop" :moveTop="moveTop"/>
   <div id="nav">
-    <router-link to="/" v-on:click="leaveTop">Home</router-link> |
-    <router-link to="/about" v-on:click="leaveTop">About</router-link> |
-    <router-link to="/top" v-on:click="moveTop">Top</router-link>
+    <router-link to="/" @click="leaveTop">Home</router-link> |
+    <router-link to="/about" @click="leaveTop">About</router-link> |
+    <router-link to="/top" @click="moveTop">Top</router-link>
   </div>
-  <router-view />
-  <Footer />
+  <router-view :leaveTop="leaveTop" :moveTop="moveTop" />
+  <Footer :leaveTop="leaveTop" :moveTop="moveTop"/>
 </template>
 
 <script>
@@ -15,7 +15,7 @@ import Footer from "@/components/Footer.vue";
 export default {
   data() {
     return {
-      isNotTop: false
+      isNotTop: true
     }
   },
   methods: {
