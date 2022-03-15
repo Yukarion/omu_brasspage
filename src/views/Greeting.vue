@@ -61,8 +61,5 @@
 }
 */
 
-@font-face {
-  font-family:'ipaexm';
-  src:url('../assets/fonts/ipaexm.ttf');
-}
+
 </style>
