@@ -47,8 +47,10 @@
   max-width: 900px;
   min-margin: 10%;
   margin: 10% max(5%, calc( 5em + 10 * ( 100vw - 40em ) / (67 - 40) ));
-  font-family: 'ipaexm';
-  font-size: max(12px, 1.375vw);
+  font-family :
+	'Yu Mincho', /* Windows用 */
+	serif;
+  font-size: max(12px, 1.35vw);
 }
 
 /*
