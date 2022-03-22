@@ -2,7 +2,7 @@
   <div class="container header">
     <div class="row">
       <div class="col col-sm-3 access_top">
-        <router-link to="/top" @click="moveTop()" v-if="isTop">
+        <router-link to="/" @click="moveTop()" v-if="isTop">
           <img class="brass_logo" alt="nmu_brass ico" src="../assets/omu_brass_logo_red.png" />
         </router-link>
       </div>
@@ -26,7 +26,12 @@ export default {
   props: {
     leaveTop: Function,
     moveTop: Function,
-    isTop: Boolean,
+    isNotTop: Boolean,
+  },
+   data() {
+    return {
+      isTop: this.isNotTop
+    }
   },
 };
 </script>

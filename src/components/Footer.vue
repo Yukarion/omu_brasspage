@@ -2,7 +2,7 @@
   <div id="footer" class="container">
     <div class="row">
       <div id="access_top" class="col col-sm-3">
-        <router-link to="/top" @click="moveTop()">
+        <router-link to="/" @click="moveTop()">
           <img class="brass_logo" alt="nmu_brass ico" src="../assets/omu_brass_logo_white.png" />
         </router-link>
       </div>

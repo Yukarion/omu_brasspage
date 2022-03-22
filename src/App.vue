@@ -1,5 +1,5 @@
 <template>
-  <Header v-if="isNotTop" :leaveTop="leaveTop" :moveTop="moveTop"/>
+  <Header v-if="!isTop" :leaveTop="leaveTop" :moveTop="moveTop" :isNotTop="true"/>
   <router-view :leaveTop="leaveTop" :moveTop="moveTop" />
   <Footer :leaveTop="leaveTop" :moveTop="moveTop"/>
 </template>
@@ -10,15 +10,15 @@ import Footer from "@/components/Footer.vue";
 export default {
   data() {
     return {
-      isNotTop: false
+      isTop: true
     }
   },
   methods: {
     moveTop() {
-      this.isNotTop = false;
+      this.isTop = true;
     },
     leaveTop() {
-      this.isNotTop = true;
+      this.isTop = false;
     }
   },
   components: {
@@ -67,4 +67,10 @@ export default {
 .selector-for-some-widget {
   box-sizing: content-box;
 }
+
+.active {
+  display: none;
+}
+
+
 </style>
