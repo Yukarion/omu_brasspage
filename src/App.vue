@@ -68,9 +68,8 @@ export default {
   box-sizing: content-box;
 }
 
-.active {
-  display: none;
+a {
+  text-decoration:none;
 }
-
 
 </style>
