@@ -29,7 +29,7 @@ export default {
     moveTop: Function,
     isNotTop: Boolean,
   },
-   data() {
+  data() {
     return {
       isTop: this.isNotTop
     }
