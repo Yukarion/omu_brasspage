@@ -1,16 +1,12 @@
 <template>
-  <div id="header" class="container">
+  <div class="container header">
     <div class="row">
-      <div id="access_top" class="col col-sm-3">
-        <router-link to="/" @click="moveTop()">
-          <!--
-            <img alt="nmu_brass ico" src="../assets/_nmu_brass_ico.png" />
-            -->
-          Osaka Metropolitan University <br /> Brass Band <br />
-          大阪公立大学吹奏楽部
+      <div class="col col-sm-3 access_top">
+        <router-link to="/" @click="moveTop()" v-if="isTop">
+          <img class="brass_logo" alt="nmu_brass ico" src="../assets/omu_brass_logo_red.png" />
         </router-link>
       </div>
-      <div id="menu" class="col col-md-auto">
+      <div class="col col-md-auto menu">
         <router-link to="/greeting" @click="leaveTop()">ご挨拶</router-link>
         <router-link to="/news" @click="leaveTop()">お知らせ</router-link>
         <router-link to="/about" @click="leaveTop()">活動紹介</router-link>
@@ -29,19 +25,39 @@ export default {
   name: "Header",
   props: {
     leaveTop: Function,
-    moveTop: Function
-  }
-}
+    moveTop: Function,
+    isNotTop: Boolean,
+  },
+   data() {
+    return {
+      isTop: this.isNotTop
+    }
+  },
+};
 </script>
 
-
 <style>
-#access_top {
+.access_top {
   font-size: 14px;
   text-align: left;
   text-indent: -0.7em;
 }
-#header{
-  font-size: 18px;
+
+.menu {
+  padding: 30px;
+}
+
+.menu a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.menu a.router-link-exact-active {
+  color: #42b983;
+}
+
+.brass_logo {
+  height: 143px;
+  width: 301px;
 }
 </style>

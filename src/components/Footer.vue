@@ -3,11 +3,7 @@
     <div class="row">
       <div id="access_top" class="col col-sm-3">
         <router-link to="/" @click="moveTop()">
-          <!--
-            <img alt="nmu_brass ico" src="../assets/_nmu_brass_ico.png" />
-            -->
-          Osaka Metropolitan University <br /> Brass Band <br />
-          大阪公立大学吹奏楽部
+          <img class="brass_logo" alt="nmu_brass ico" src="../assets/omu_brass_logo_white.png" />
         </router-link>
       </div>
       <div id="menu" class="col col-md-auto">

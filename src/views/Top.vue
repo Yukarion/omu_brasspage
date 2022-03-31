@@ -1,6 +1,6 @@
 <template>
   <div class="top">
-    <Header :leaveTop="leaveTop" :moveTop="moveTop"/>
+    <Header :leaveTop="leaveTop" :moveTop="moveTop" :isTop="true"/>
     <div class="name">
       <h1>Osaka Metropolitan University <br /> Brass Band</h1>
       <h5>大阪公立大学吹奏楽部</h5>
@@ -28,7 +28,7 @@ export default {
   props: {
     leaveTop: Function,
     moveTop: Function
-  }
+  },
 };
 
 </script>
