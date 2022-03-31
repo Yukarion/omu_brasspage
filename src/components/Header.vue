@@ -1,24 +1,21 @@
 <template>
-  <div id="header" class="container">
+  <div class="container-lg header">
     <div class="row">
-      <div id="access_top" class="col col-sm-3">
-        <router-link to="/" @click="moveTop()">
-          <!--
-            <img alt="nmu_brass ico" src="../assets/_nmu_brass_ico.png" />
-            -->
-          Osaka Metropolitan University <br /> Brass Band <br />
-          大阪公立大学吹奏楽部
+      <div class="col-3 access-top">
+        <router-link to="/" @click="moveTop()" v-if="isTop">
+          <img id="brass-logo" alt="omu_brass ico" src="../assets/omu_brass_logo_red.png" />
         </router-link>
       </div>
-      <div id="menu" class="col col-md-auto">
-        <router-link to="/greeting" @click="leaveTop()">ご挨拶</router-link>
-        <router-link to="/news" @click="leaveTop()">お知らせ</router-link>
-        <router-link to="/about" @click="leaveTop()">活動紹介</router-link>
-        <router-link to="/advertise" @click="leaveTop()">部員募集</router-link>
-        <router-link to="/request" @click="leaveTop()">演奏会のご依頼</router-link>
-        <router-link to="/archive" @click="leaveTop()">過去の演奏会</router-link>
-        <a href="" target="_blank" rel="noopener" @click="leaveTop()">部員ポータル</a>
-        <router-link to="/link" @click="leaveTop()">リンク</router-link>
+      <div class="col-9 menu">
+        <div id="header-items">
+            <router-link class="item" to="/greeting" @click="leaveTop()">ご挨拶</router-link>
+            <router-link class="item" to="/about" @click="leaveTop()">活動紹介</router-link>
+            <router-link class="item" to="/advertise" @click="leaveTop()">部員募集</router-link>
+            <router-link class="item" to="/request" @click="leaveTop()">演奏会のご依頼</router-link>
+            <router-link class="item" to="/archive" @click="leaveTop()">過去の演奏会</router-link>
+            <a href="" class="item" target="_blank" rel="noopener" @click="leaveTop()">部員ポータル</a>
+            <router-link class="item" to="/link" @click="leaveTop()">リンク</router-link>
+        </div>
       </div>
     </div>
   </div>
@@ -29,19 +26,52 @@ export default {
   name: "Header",
   props: {
     leaveTop: Function,
-    moveTop: Function
-  }
-}
+    moveTop: Function,
+    isNotTop: Boolean,
+  },
+   data() {
+    return {
+      isTop: this.isNotTop
+    }
+  },
+};
 </script>
 
-
 <style>
-#access_top {
-  font-size: 14px;
-  text-align: left;
-  text-indent: -0.7em;
+
+.header {
+  width: 100%;
+  max-width: 100%;
+  font-size: calc(1rem - 2 * (1920px - 100vw) / 1560);
 }
-#header{
-  font-size: 18px;
+
+.access-top {
+  padding: 0.5rem 0rem;
 }
+
+.menu {
+  position: relative;
+}
+
+.item {
+  white-space: nowrap;
+}
+
+#header-items{
+  position: absolute;
+  top: 50%;
+  right: 3%;
+  transform: translateY(-50%);
+  text-align: end;
+}
+
+#header-items a {
+  color: #2c3e50;
+  padding: 1rem 0.5rem;
+}
+
+#brass-logo {
+  width: 100%;
+}
+
 </style>
