@@ -71,7 +71,7 @@ export default {
 }
 
 #footer-items a {
-  margin: auto calc(3.5vw - 11px);
+  margin: auto calc(3vw - 0.8rem);
 }
 
 .items-lap {
