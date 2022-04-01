@@ -77,11 +77,11 @@
       <tr>
         <td>
           <div class="txt_Q">
-            <div class="icon_Q">他大生で、今学期の履修では平日は練習時間に間に合いません..<br>
-              さすがに土曜だけ参加とかはダメですよね...</div>
+            <div class="icon_Q">他大生で、今学期の履修では平日は練習時間に間に合いません…
+              さすがに土曜だけ参加とかはダメですよね…</div>
           </div>
           <div class="txt_A">
-            <div class="icon_A">大丈夫です！公立大吹奏楽部では個人の生活、学業を優先しているので週１での参加も可能です！<br>
+            <div class="icon_A">大丈夫です！公立大吹奏楽部では個人の生活、学業を優先しているので週１での参加も可能です！
             過去の先輩にも〇回生の頃は〇曜日だけ来てた！って人は多いです！</div>
           </div>
         </td>
@@ -89,11 +89,11 @@
       <tr>
         <td>
           <div class="txt_Q">
-            <div class="icon_Q">りんくうキャンパスから通うのって難しいですかね…?</div>
+            <div class="icon_Q">りんくうキャンパスから通うのって難しいですかね…</div>
           </div>
           <div class="txt_A">
-            <div class="icon_A">大丈夫です！他キャンパスから通っている部員も多く、これる日にうまく来て部活を楽しんでいます！<br>
-            いろんなキャンパスの部員がいるので授業の情報をゲットできるかも..?!</div>
+            <div class="icon_A">大丈夫です！他キャンパスから通っている部員も多く、これる日にうまく来て部活を楽しんでいます！
+            いろんなキャンパスの部員がいるので授業の情報をゲットできるかも…!</div>
           </div>
         </td>
       </tr>
@@ -135,7 +135,7 @@ table.table_Ad {
 table.table_Ad td{
   margin: auto;
   border-width: 1px 0px;
-  padding:1rem 4rem;
+  padding:1rem 3vw;
 }
 
 table.table_qa{
@@ -144,9 +144,11 @@ table.table_qa{
 }
 table.table_qa td{
   margin: auto;
+  padding: 0rem 4vw;
 }
 table.table_qa tr{
   border-bottom: solid 1px gray;
+  
 }
 
 p.txt_in_box{
@@ -202,6 +204,7 @@ p.txt_in_box{
   margin-left: 1.5em;
 	text-indent: -1.5em;
   margin-bottom: 1.5em;
+  font-size: 1rem;
 }
 .txt_3{
   display: inline-block;
@@ -233,7 +236,7 @@ p.txt_in_box{
 }
 .contents_QA {
   width: 80%;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 3% auto;
   font-family :
 	'Yu Mincho', /* Windows用 */
