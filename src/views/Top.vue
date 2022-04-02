@@ -5,22 +5,21 @@
       <h1>Osaka Metropolitan University <br /> Brass Band</h1>
       <h5>大阪公立大学吹奏楽部</h5>
     </div>
-    <!--
+    
     <Topics />
-    -->
   </div>
 </template>
 
 <script>
 
 import Header from "@/components/Header.vue";
-//import Topics from "@/components/Topics.vue":
+import Topics from "@/components/Topics.vue";
 
 export default {
   name: "Top",
   components: {
     Header,
-//    Topics,
+    Topics,
   },
   props: {
     leaveTop: Function,
