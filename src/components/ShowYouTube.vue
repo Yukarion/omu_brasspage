@@ -18,24 +18,24 @@ export default {
       link: "https://www.youtube.com/embed/"
     }
   },
-  created(){
-    const apikey = 'AIzaSyADlM2uDjO7Lm0Nq9brtdhzEeGtoG1vNko';
-    const playlistid = 'UUvrAz5r2EVMbWNOEDoH0k8A';
-    const maxresults = '1';
-    const url = 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults='+maxresults +'&playlistId='+playlistid+'&key='+apikey;
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', url, false);
-    xhr.send();
-    if(xhr.readyState === 4 && xhr.status === 200) {
-      var json = JSON.parse(xhr.responseText || null);
-      console.log(json);
-      console.log(this.link);
-      var videoid = "";
-      videoid = json.items[0].snippet.resourceId.videoId;
-      this.link = this.link + videoid;
-      console.log(this.link);
-      this.load = true;
-    };
+  async mounted(){
+    try {
+      const apikey = 'AIzaSyADlM2uDjO7Lm0Nq9brtdhzEeGtoG1vNko';
+      const playlistid = 'UUvrAz5r2EVMbWNOEDoH0k8A';
+      const maxresults = '1';
+      const url = 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults='+maxresults +'&playlistId='+playlistid+'&key='+apikey;
+      const response = await fetch(url);
+      if(response.ok) {
+        const json = await response.json();
+        const videoid = json.items[0].snippet.resourceId.videoId;
+        this.link = this.link + videoid;
+        this.load = true;
+      }else{
+        throw new Error("response is not OK. response is :" + response.status);
+      }
+    } catch (e) {
+      console.log("error: " + e)
+    }
   },
 };
 </script>
