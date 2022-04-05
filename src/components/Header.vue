@@ -1,20 +1,21 @@
 <template>
-  <div class="container header">
+  <div class="container-lg header">
     <div class="row">
-      <div class="col col-sm-3 access_top">
+      <div class="col-3 access-top">
         <router-link to="/" @click="moveTop()" v-if="isTop">
-          <img class="brass_logo" alt="nmu_brass ico" src="../assets/omu_brass_logo_red.png" />
+          <img id="brass-logo" alt="omu_brass ico" src="../assets/omu_brass_logo_red.png" />
         </router-link>
       </div>
-      <div class="col col-md-auto menu">
-        <router-link to="/greeting" @click="leaveTop()">ご挨拶</router-link>
-        <router-link to="/news" @click="leaveTop()">お知らせ</router-link>
-        <router-link to="/about" @click="leaveTop()">活動紹介</router-link>
-        <router-link to="/advertise" @click="leaveTop()">部員募集</router-link>
-        <router-link to="/request" @click="leaveTop()">演奏会のご依頼</router-link>
-        <router-link to="/archive" @click="leaveTop()">過去の演奏会</router-link>
-        <a href="" target="_blank" rel="noopener" @click="leaveTop()">部員ポータル</a>
-        <router-link to="/link" @click="leaveTop()">リンク</router-link>
+      <div class="col-9 menu">
+        <div id="header-items">
+            <router-link class="item" to="/greeting" @click="leaveTop()">ご挨拶</router-link>
+            <router-link class="item" to="/about" @click="leaveTop()">活動紹介</router-link>
+            <router-link class="item" to="/advertise" @click="leaveTop()">部員募集</router-link>
+            <router-link class="item" to="/request" @click="leaveTop()">演奏会のご依頼</router-link>
+            <router-link class="item" to="/archive" @click="leaveTop()">過去の演奏会</router-link>
+            <a href="" class="item" target="_blank" rel="noopener" @click="leaveTop()">部員ポータル</a>
+            <router-link class="item" to="/link" @click="leaveTop()">リンク</router-link>
+        </div>
       </div>
     </div>
   </div>
@@ -37,27 +38,40 @@ export default {
 </script>
 
 <style>
-.access_top {
-  font-size: 14px;
-  text-align: left;
-  text-indent: -0.7em;
+
+.header {
+  width: 100%;
+  max-width: 100%;
+  font-size: calc(1rem - 2 * (1920px - 100vw) / 1560);
+}
+
+.access-top {
+  padding: 0.5rem 0rem;
 }
 
 .menu {
-  padding: 30px;
+  position: relative;
 }
 
-.menu a {
-  font-weight: bold;
+.item {
+  white-space: nowrap;
+}
+
+#header-items{
+  position: absolute;
+  top: 50%;
+  right: 3%;
+  transform: translateY(-50%);
+  text-align: end;
+}
+
+#header-items a {
   color: #2c3e50;
+  padding: 1rem 0.5rem;
 }
 
-.menu a.router-link-exact-active {
-  color: #42b983;
+#brass-logo {
+  width: 100%;
 }
 
-.brass_logo {
-  height: 143px;
-  width: 301px;
-}
 </style>
