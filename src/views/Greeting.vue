@@ -3,7 +3,7 @@
     <div class="image_header"><img src="../assets/greeting_header.png"></div>
 
     <div class="title">
-      <h1>Osaka Metropolitan University Brass Band</h1>
+      <h1>Osaka Metropolitan University Wind Orchestra</h1>
     </div>
     <div class="sub_title">
       <h2>大阪公立大学吹奏楽部</h2>
