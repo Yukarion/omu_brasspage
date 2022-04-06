@@ -20,11 +20,8 @@ export default {
   },
   async mounted(){
     try {
-      const apikey = 'AIzaSyADlM2uDjO7Lm0Nq9brtdhzEeGtoG1vNko';
-      const playlistid = 'UUvrAz5r2EVMbWNOEDoH0k8A';
-      const maxresults = '1';
-      const url = 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults='+maxresults +'&playlistId='+playlistid+'&key='+apikey;
-      const response = await fetch(url);
+      const url = 'https://youtube.opu-brass.com/';
+      const response = await fetch(url, {mode: 'cors'});
       if(response.ok) {
         const json = await response.json();
         const videoid = json.items[0].snippet.resourceId.videoId;

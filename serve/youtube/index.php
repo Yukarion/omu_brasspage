@@ -4,7 +4,7 @@ $apikey = 'AIzaSyADlM2uDjO7Lm0Nq9brtdhzEeGtoG1vNko';
 //Youtube プレイストID
 $playlistid = 'UUvrAz5r2EVMbWNOEDoH0k8A';
 //取得件数
-$maxresults = '4';
+$maxresults = '1';
 //API URL
 $url = 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults='.$maxresults .'&playlistId='.$playlistid.'&key='.$apikey;
 //ローカルjsonファイル名
@@ -36,6 +36,8 @@ if(file_exists($filename)){
 
 //ローカルjson出力
 $json = @file_get_contents($filename);
+header('Access-Control-Allow-Origin: http://localhost:8080');
+// header('Access-Control-Allow-Origin: https://omu-brass.com');
 header('Content-Type: application/json');
 echo $json;
 ?>
