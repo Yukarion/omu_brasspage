@@ -72,4 +72,8 @@ a {
   text-decoration:none;
 }
 
+img {
+  image-rendering: -webkit-optimize-contrast;
+}
+
 </style>
