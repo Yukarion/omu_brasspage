@@ -45,7 +45,7 @@ export default {
 
 <style>
 #footer {
-  background-color:#E82121;
+  background-color:#c34242;
   width: 100%;
   font-size: calc(1rem - 2 * (1920px - 100vw) / 1560);
 }
