@@ -1,6 +1,6 @@
 <template>
   <div class="top">
-    <Header :leaveTop="leaveTop" :moveTop="moveTop" :isTop="true" id="text-white"/>
+    <Header :leaveTop="leaveTop" :moveTop="moveTop" :isTop="true" id="text-white" class="test"/>
     <div class="name">
       <h1>Osaka Metropolitan University <br /> Brass Band</h1>
       <h5>大阪公立大学吹奏楽部</h5>
@@ -30,7 +30,8 @@ export default {
 
 <style>
 .top {
-  background-image: url(../assets/topics_header.jpg);
+  background-image: url(../assets/topics_header.jpg) ;
+  background-repeat: no-repeat;
 }
 
 #text-white a {

@@ -1,15 +1,17 @@
 <template>
   <div class="instagram">
-    <div v-if="load">
-      <div v-for="(post, name, index) in post_data" :key="index" :class="index">
-        <a :href="post.permalink" target="_blank" rel="noopener">
-          <img :src="post.thumbnail_url" :alt="post.caption" v-if="post.media_type=='VIDEO'"/>
-          <img :src="post.media_url" :alt="post.caption" v-else/>
-        </a>
+    <div class="container">
+      <div v-if="load" class="row">
+        <div v-for="(post, name, index) in post_data" :key="index" :class="index" class="col-4">
+          <a :href="post.permalink" target="_blank" rel="noopener" >
+            <img :src="post.thumbnail_url" :alt="post.caption" v-if="post.media_type=='VIDEO'"/>
+            <img :src="post.media_url" :alt="post.caption" v-else/>
+          </a>
+        </div>
       </div>
-    </div>
-    <div v-else>
-      Now loading...
+      <div v-else>
+        Now loading...
+      </div>
     </div>
   </div>
 </template>
@@ -43,4 +45,26 @@ export default {
 </script>
 
 <style>
+  .row {
+    width: 100%;
+  }
+  .col-4 {
+    margin: 1%;
+    display: block;
+    position: relative;
+    max-width: 20%;
+  }
+  .col-4::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+  }
+  .col-4 img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  object-fit: cover;
+  }
+
 </style>
