@@ -11,7 +11,7 @@
       <div class="row align-items-center">
         <h2 class="head-border"><div class="icon"><img src="../assets/icon_about_1630.png"></div>始令・音出し</h2>
         <div class="col-sm-12 col-md-8">
-          <p class="side_txt">部長による出欠確認と合奏予定の連絡から部活が始まります。
+          <p class="txt_side_1">部長による出欠確認と合奏予定の連絡から部活が始まります。
           始礼から合奏までの時間は音出しという扱いですが、基礎練習・曲練習・パート練習など、時間の使い方は自由です。
           指令の時点で集まっている部員は半分ほどで、授業を終えていない公立大生や移動中の他大生もいることから、自由度のある時間として設けています。</p>
         </div>
@@ -22,7 +22,7 @@
       <div class="row align-items-center">
         <h2 class="head-border_2"><div class="icon"><img src="../assets/icon_about_1730.png"></div>合奏</h2>
         <div class="col-sm-12 col-md-8">
-          <p class="side_txt">１曲あたり30~60分の合奏練習をします。
+          <p class="txt_side_1">１曲あたり30~60分の合奏練習をします。
             当部には正指揮者と言われる3回生の指揮者と、副指揮者と言われる２回生の指揮者がいます。
             彼らの指導のもと合奏は進められますが、合奏中に奏者から意見をもらいながら曲の調整をする場面も多々見られます。
             全員で声を出し合って曲を作り上げていくのは、公立大吹奏楽部の特徴と言えるでしょう。
@@ -33,42 +33,56 @@
           <figure class="side_img"><img src="../assets/about_flow_3.png"></figure>
         </div>
       </div>
-      <div class="row align-items-end">
-        <div class="row align-items-center">
-          <h2 class="head-border_2"><div class="icon"><img src="../assets/icon_about_1900.png"></div>終礼</h2>
-          <div class="col-sm-12 col-md-8">
-            <p class="side_txt">部長をはじめ各役職から諸連絡をして、部活が終わります。
-            居残り練習をしたり、仲の良いもの同士で帰ったり、パートで食事に行ったりなど、終礼後の過ごし方は様々です。
-            もちろん、居残り練習を強制するような雰囲気はありません。</p>
-          </div>
-          <div class="col-sm-12 col-md-4">
-            <figure class="side_img"><img src="../assets/about_flow_1.png"></figure>
-          </div>
+      <div class="row align-items-center">
+        <h2 class="head-border_2"><div class="icon"><img src="../assets/icon_about_1900.png"></div>終礼</h2>
+        <div class="col-sm-12 col-md-8">
+          <p class="txt_side_1">部長をはじめ各役職から諸連絡をして、部活が終わります。
+          居残り練習をしたり、仲の良いもの同士で帰ったり、パートで食事に行ったりなど、終礼後の過ごし方は様々です。
+          もちろん、居残り練習を強制するような雰囲気はありません。</p>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <figure class="side_img"><img src="../assets/about_flow_1.png"></figure>
         </div>
       </div>
     </div>
-    <h1>てすと</h1>
+    <h1>主な行事</h1>
     <div class="container">
       <div class="row align-items-center">
         <div class="col-sm-12 col-md-6">
-          <figure class="side_img"><img src="../assets/about_flow_1.png"></figure>
+          <figure class="side_img"><img src="../assets/about_events_1.png"></figure>
         </div>
         <div class="col-sm-12 col-md-6">
-        <p class="side_txt">部長による出欠確認と合奏予定の連絡から部活が始まります。
-        始礼から合奏までの時間は音出しという扱いですが、基礎練習・曲練習・パート練習など、時間の使い方は自由です。
-        指令の時点で集まっている部員は半分ほどで、授業を終えていない公立大生や移動中の他大生もいることから、自由度のある時間として設けています。</p>
+          <h3><span id="StR">サマーコンサート</span></h3>
+          <p class="txt_time">開催時期：5月末</p>
+          <p class="txt_side_2">部長による出欠確認と合奏予定の連絡から部活が始まります。
+          始礼から合奏までの時間は音出しという扱いですが、基礎練習・曲練習・パート練習など、時間の使い方は自由です。
+          指令の時点で集まっている部員は半分ほどで、授業を終えていない公立大生や移動中の他大生もいることから、自由度のある時間として設けています。</p>
         </div>
         <div class="border"></div>
       </div>
       <div class="row align-items-center">
         <div class="col-sm-12 col-md-6">
-          <figure class="side_img"><img src="../assets/about_flow_1.png"></figure>
+          <figure class="side_img"><img src="../assets/about_events_2.png"></figure>
         </div>
         <div class="col-sm-12 col-md-6">
-        <p class="side_txt">部長による出欠確認と合奏予定の連絡から部活が始まります。
-        始礼から合奏までの時間は音出しという扱いですが、基礎練習・曲練習・パート練習など、時間の使い方は自由です。
-        指令の時点で集まっている部員は半分ほどで、授業を終えていない公立大生や移動中の他大生もいることから、自由度のある時間として設けています。</p>
+          <h3><span id="StR">阪神国公立大学吹奏楽連盟 合同演奏会</span></h3>
+          <p class="txt_time">開催時期：6月末</p>
+          <p class="txt_side_2">部長による出欠確認と合奏予定の連絡から部活が始まります。
+          始礼から合奏までの時間は音出しという扱いですが、基礎練習・曲練習・パート練習など、時間の使い方は自由です。
+          指令の時点で集まっている部員は半分ほどで、授業を終えていない公立大生や移動中の他大生もいることから、自由度のある時間として設けています。</p>
         </div>
+        <div class="border"></div>
+        <div class="col-sm-12 col-md-6">
+          <figure class="side_img"><img src="../assets/about_events_3.png"></figure>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <h3><span id="StR">定期演奏会</span></h3>
+          <p class="txt_time">開催時期：11月末</p>
+          <p class="txt_side_2">部長による出欠確認と合奏予定の連絡から部活が始まります。
+          始礼から合奏までの時間は音出しという扱いですが、基礎練習・曲練習・パート練習など、時間の使い方は自由です。
+          指令の時点で集まっている部員は半分ほどで、授業を終えていない公立大生や移動中の他大生もいることから、自由度のある時間として設けています。</p>
+        </div>
+        <div class="border"></div>
       </div>
     </div>
   </div>
@@ -81,18 +95,22 @@
 	'Yu Mincho', /* Windows用 */
 	serif;
 }
-img {
-  image-rendering: -webkit-optimize-contrast;
-}
 .image_header img {
 	display: block;
 	width: 100%;
 	height: auto;
   object-fit: cover;
 }
-
+h1{
+  margin: 5% auto;
+}
 
 h2 {
+  font-size: 1.2rem;
+}
+
+h3 {
+  text-align: left;
   font-size: 1.2rem;
 }
 
@@ -114,13 +132,24 @@ h2 {
 .container{
   width: 70%;
 }
-p.side_txt {
+p.txt_side_1 {
   width: 100%;
   text-align: left;
   font-size: 0.8rem;
   line-height: 200%;
   padding-left: 20%;
   
+}
+p.txt_side_2 {
+  width: 100%;
+  text-align: left;
+  font-size: 0.8rem;
+  line-height: 200%;
+  
+}
+
+p.txt_time{
+  text-align: left;
 }
 
 .head-border {
@@ -175,12 +204,18 @@ p.side_txt {
   margin: 3% auto;
 }
 
+#StR{background: linear-gradient(transparent 0%, #ffA0A0 0%);}
+
 @media screen and (max-width: 1090px){
   .container{
     width: 80%;
   }
-  p.side_txt {
+  p.txt_side_1 {
     padding-left: 10%;
+  }
+
+  p.txt_time {
+    text-align: center;
   }
   .head-border:before {
     margin-right: 1rem;
@@ -202,10 +237,15 @@ p.side_txt {
   h2 {
   font-size: 1.1rem;
   }
+
+  h3 {
+  text-align: center;
+  font-size: 1.2rem;
+  }
   .container{
     width: 80%;
   }
-  p.side_txt {
+  p.txt_side_1 {
     width: 90%;
     padding: 0%;
     margin: auto;
@@ -243,8 +283,17 @@ p.side_txt {
   h2 {
     font-size: 1.1rem;
   }
-  p.side_txt {
+
+  h3 {
+  text-align: center;
+  font-size: 1.2rem;
+  }
+  p.txt_side_1 {
     width: 94%;
+  }
+
+  p.txt_time {
+    text-align: center;
   }
 
   .head-border:after {
