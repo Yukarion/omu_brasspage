@@ -28,7 +28,7 @@ export default {
   async mounted(){
     try {
       console.log("hoge")
-      const url = 'https://instagram.opu-brass.com/';
+      const url = 'https://instagram.omu-brass.com/';
       const response = await fetch(url, {mode: 'cors'});
       if(response.ok) {
         const res = await response.json();
