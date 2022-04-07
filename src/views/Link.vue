@@ -8,9 +8,12 @@
 </template>
 
 <style>
-  .tmp {
+  
+  .tmp  img{
     display: block;
-    width: 100%;
+    margin: auto;
+    width: 60%;
+    max-width: 100%;
     height: auto;
     object-fit: cover;
   }

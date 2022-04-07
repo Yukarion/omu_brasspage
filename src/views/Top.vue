@@ -1,9 +1,11 @@
 <template>
   <div class="top">
-    <Header :leaveTop="leaveTop" :moveTop="moveTop" :isTop="true" id="text-white"/>
+    <div class="box_header">
+      <Header :leaveTop="leaveTop" :moveTop="moveTop" :isTop="true" id="text-white" class="contents_header"/>
+      <div class="image_header"><img src="../assets/topics_header.png"></div>
+    </div>
     <div class="name">
-      <h1>Osaka Metropolitan University <br /> Brass Band</h1>
-      <h5>大阪公立大学吹奏楽部</h5>
+      <h1>Topics</h1>
     </div>
     <Topics />
   </div>
@@ -28,13 +30,28 @@ export default {
 
 </script>
 
+
 <style>
-.top {
-  background-image: url(../assets/topics_header.jpg);
+
+.image_header img {
+	display: block;
+	width: 100%;
+	height: auto;
+  object-fit: cover;
+}
+.contents_header{
+  position:absolute;
+  padding: 2%;
+}
+
+.box_header {
+  position: relative;
 }
 
 #text-white a {
   color: white;
 }
+
+
 
 </style>
