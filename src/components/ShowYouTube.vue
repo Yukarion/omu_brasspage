@@ -20,7 +20,7 @@ export default {
   },
   async mounted(){
     try {
-      const url = 'https://youtube.opu-brass.com/';
+      const url = 'https://youtube.omu-brass.com/';
       const response = await fetch(url, {mode: 'cors'});
       if(response.ok) {
         const json = await response.json();
