@@ -45,19 +45,22 @@ export default {
 </script>
 
 <style>
+  .container {
+    margin: 0;
+  }
   .row {
-    width: 100%;
+  width: 100%;
   }
   .col-4 {
-    margin: 1%;
-    display: block;
-    position: relative;
-    max-width: 20%;
+  margin: 1%;
+  display: block;
+  position: relative;
+  max-width: 30%;
   }
   .col-4::before {
-    content: "";
-    display: block;
-    padding-top: 100%;
+  content: "";
+  display: block;
+  padding-top: 100%;
   }
   .col-4 img{
   position: absolute;

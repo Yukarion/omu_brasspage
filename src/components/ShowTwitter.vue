@@ -1,6 +1,7 @@
 <template>
-
-  <a class="twitter-timeline" data-width="400" data-height="800" href="https://twitter.com/omu_wind?ref_src=twsrc%5Etfw">Tweets by omu_wind</a> 
+  <div class="box">
+    <a class="twitter-timeline" data-width="500" data-height="500" href="https://twitter.com/omu_wind?ref_src=twsrc%5Etfw">Tweets by omu_wind</a> 
+  </div>
   
 </template>
 

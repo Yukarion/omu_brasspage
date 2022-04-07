@@ -38,4 +38,15 @@ export default {
 </script>
 
 <style>
+
+  .embed-responsive-item {
+    width: 60%;
+    height: 30rem;
+  }
+  @media screen and (max-width: 767px) {
+    .embed-responsive-item {
+      width: 80%;
+      height: 30rem;
+    }
+  }
 </style>
