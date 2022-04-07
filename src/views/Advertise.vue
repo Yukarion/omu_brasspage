@@ -25,8 +25,8 @@
         <tr>
           <td width="30%">活動場所</td>
           <td width="70%">大阪公立大学中百舌鳥キャンパス<br>
-            練習場所:B12棟 学生会館2階 大集会室 小集会室など<br>
-            部室:文化部棟2階<br>
+            練習場所：B12棟 学生会館2階 大集会室 小集会室など<br>
+            部室：文化部棟2階<br>
           </td>
         </tr>
         <tr>
@@ -38,8 +38,8 @@
         </tr>
         <tr>
           <td>部費</td>
-          <td>楽器自持ち:￥1500/月<br>
-              楽器貸し出し:￥2000/月<br>
+          <td><span>楽器自持ち</span>:￥1500/月<br>
+              <span>楽器貸し出し</span>:￥2000/月<br>
               ただし、演奏会後のオフ期間や、感染拡大による休部期間は徴収しません<br>
           </td>
         </tr>
@@ -51,7 +51,7 @@
         </tr>
         <tr>
           <td>他大生入部実績</td>
-          <td>大阪工業大学、関西大学、近畿大学、帝塚山学院大学、同支社大学、武庫川女子大学、森ノ宮医療大学</td>
+          <td>大阪工業大学、関西大学、近畿大学、帝塚山学院大学、同志社大学、武庫川女子大学、森ノ宮医療大学</td>
         </tr>
         <tr>
           <td>入部フロー</td>
@@ -59,9 +59,9 @@
         </tr>
         <tr>
           <td>連絡先</td>
-          <td>メール:<a href="mailto:opubrass.sns@gmail.com">opubrass.sns@gmail.com</a><br>
-          Twitter:<a href="https://twitter.com/omu_wind">@omu_wind</a><br>
-          Instagram:<a href="https://www.instagram.com/omuwind/?hl=ja">omu_wind</a><br>
+          <td><span>メール</span>：<a href="mailto:opubrass.sns@gmail.com">opubrass.sns@gmail.com</a><br>
+          <span>Twitter</span>：<a href="https://twitter.com/omu_wind">@omu_wind</a><br>
+          <span>Instagram</span>：<a href="https://www.instagram.com/omuwind/?hl=ja">omu_wind</a><br>
           ※TwitterまたはInstagramのDMがおすすめです
           </td>
         </tr>
@@ -71,7 +71,7 @@
   </div>
   <h1 class="siteTt_1">Q&A</h1>
   <div class="contents_QA">
-    <div class="txt_3">活動に関する質問は質問箱にて受付してます。<br>些細な質問でも気軽にどうぞ！
+    <div class="txt_3">活動に関する質問は<a href="https://peing.net/ja/omuwind">質問箱</a>にて受付してます。<br>些細な質問でも気軽にどうぞ！
     </div>
     <table class="table_qa">
       <tr>
@@ -81,8 +81,8 @@
               さすがに土曜だけ参加とかはダメですよね…</div>
           </div>
           <div class="txt_A">
-            <div class="icon_A">大丈夫です！公立大吹奏楽部では個人の生活、学業を優先しているので週１での参加も可能です！
-            過去の先輩にも〇回生の頃は〇曜日だけ来てた！って人は多いです！</div>
+            <div class="icon_A">大丈夫です！公立大吹奏楽部では個人の生活、学業を優先しているので週１での参加も可能です。
+            過去の先輩にも〇回生の頃は〇曜日だけ来てたという人は多いです！</div>
           </div>
         </td>
       </tr>
@@ -92,7 +92,7 @@
             <div class="icon_Q">りんくうキャンパスから通うのって難しいですかね…</div>
           </div>
           <div class="txt_A">
-            <div class="icon_A">大丈夫です！他キャンパスから通っている部員も多く、これる日にうまく来て部活を楽しんでいます！
+            <div class="icon_A">心配ないと思います！他キャンパスから通っている部員も多く、これる日にうまく来て部活を楽しんでいます。
             いろんなキャンパスの部員がいるので授業の情報をゲットできるかも…!</div>
           </div>
         </td>
@@ -100,21 +100,21 @@
       <tr>
         <Td>
           <div class="txt_Q">
-            <div class="icon_Q">空きは練習などができますか？部室で過ごすことも可能なのでしょうか？</div>
+            <div class="icon_Q">空きコマは練習などができますか？部室で過ごすことも可能なのでしょうか？</div>
           </div>
           <div class="txt_A">
-            <div class="icon_A">空きコマは部室と練習場所を解放しています！自由に練習したり、ごはんを食べたりできます！</div>
+            <div class="icon_A">空きコマは練習場所を解放していますし、部室はいつでも使用できます。自由に練習したり、ごはんを食べたりすることが可能です。</div>
           </div>
         </Td>
       </tr>
       <tr>
         <td>
           <div class="txt_Q">
-            <div class="icon_Q">本当に初心者でも大丈夫なんですか？？</div>
+            <div class="icon_Q">本当に初心者でも大丈夫なんでしょうか？</div>
           </div>
           <div class="txt_A">
             <div class="icon_A">大阪公立大学吹奏楽部は、初心者でも楽しい部活だと思います！<br>
-            吹部には、演奏以外にも演奏会の運営や企画なども盛りだくさんですし、大学生ならではの効率のいい練習法でガンガン吹けるようになります！！</div>
+            吹部には演奏以外にも演奏会の運営や企画なども盛りだくさんですし、大学生ならではの効率のいい練習法でガンガン吹けるようになります！</div>
           </div>
         </td>
       </tr>
@@ -245,4 +245,12 @@ p.txt_in_box{
   font-size: 1rem;
 }
 
+span {
+  display: inline-block;
+  width: 6rem;
+}
+
+a {
+  text-decoration: none;
+}
 </style>
