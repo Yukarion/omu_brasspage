@@ -38,14 +38,14 @@
         </tr>
         <tr>
           <td>部費</td>
-          <td><span>楽器自持ち</span>:￥1500/月<br>
-              <span>楽器貸し出し</span>:￥2000/月<br>
-              ただし、演奏会後のオフ期間や、感染拡大による休部期間は徴収しません<br>
+          <td><span class="style_1">楽器自持ち</span>:￥1500/月<br>
+              <span class="style_1">楽器貸し出し</span>:￥2000/月<br>
+              ただし、演奏会後のオフ期間や、感染拡大による休部期間は徴収<span>しません</span><br>
           </td>
         </tr>
         <tr>
           <td>募集対象者</td>
-          <td>大学生(公立大生だけでなく他大生も歓迎)<br>
+          <td>大学生(公立大生だけでなく他大生も<span>歓迎)</span><br>
           楽器経験不問<br>
           </td>
         </tr>
@@ -55,13 +55,13 @@
         </tr>
         <tr>
           <td>入部フロー</td>
-          <td>下記連絡先に「〇〇大学の〇〇(名前)です！見学希望です！」などの内容でDM→当部からの返信にて日程調整→部活動見学→楽器希望提出(仮入部)→担当楽器確定(入部)</td>
+          <td>下記連絡先に「〇〇大学の〇〇(名前)です！見学希望です！」などの内容でDM→当部からの返信にて日程調整→部活動見学→楽器希望提出(仮入部)<span>→担当楽器確定(入部)</span></td>
         </tr>
         <tr>
           <td>連絡先</td>
-          <td><span>メール</span>：<a href="mailto:opubrass.sns@gmail.com">opubrass.sns@gmail.com</a><br>
-          <span>Twitter</span>：<a href="https://twitter.com/omu_wind">@omu_wind</a><br>
-          <span>Instagram</span>：<a href="https://www.instagram.com/omuwind/?hl=ja">omu_wind</a><br>
+          <td><span class="style_2">メール</span>：<a href="mailto:opubrass.sns@gmail.com">opubrass.sns@gmail.com</a><br>
+          <span class="style_2">Twitter</span>：<a href="https://twitter.com/omu_wind">@omu_wind</a><br>
+          <span class="style_2">Instagram</span>：<a href="https://www.instagram.com/omuwind/?hl=ja">omu_wind</a><br>
           ※TwitterまたはInstagramのDMがおすすめです
           </td>
         </tr>
@@ -71,7 +71,7 @@
   </div>
   <h1 class="siteTt_1">Q&A</h1>
   <div class="contents_QA">
-    <div class="txt_3">活動に関する質問は<a href="https://peing.net/ja/omuwind">質問箱</a>にて受付してます。<br>些細な質問でも気軽にどうぞ！
+    <div class="txt_3">活動に関する質問は<a href="https://peing.net/ja/omuwind">質問箱</a>にて受付して<span>ます。</span><br>些細な質問でも気軽にどうぞ！
     </div>
     <table class="table_qa">
       <tr>
@@ -82,7 +82,7 @@
           </div>
           <div class="txt_A">
             <div class="icon_A">大丈夫です！公立大吹奏楽部では個人の生活、学業を優先しているので週１での参加も可能です。
-            過去の先輩にも〇回生の頃は〇曜日だけ来てたという人は多いです！</div>
+            例えば過去の先輩には、1回生の頃は金曜日だけ来てたという人もいました！</div>
           </div>
         </td>
       </tr>
@@ -148,8 +148,8 @@ table.table_qa td{
 }
 table.table_qa tr{
   border-bottom: solid 1px gray;
-  
 }
+
 
 p.txt_in_box{
   margin-top: 0.5rem;
@@ -217,13 +217,12 @@ p.txt_in_box{
 }
 .contents_above {
   text-align: center;
-  width: 83%;
+  width: 90%;
   max-width: 800px;
   margin: 5% auto;
   font-family:
 	'Yu Mincho', /* Windows用 */
 	serif;
-  font-size: 1rem;
 }
 .contents_below {
   width: 80%;
@@ -232,7 +231,6 @@ p.txt_in_box{
   font-family :
 	'Yu Mincho', /* Windows用 */
 	serif;
-  font-size: 1rem;
 }
 .contents_QA {
   width: 80%;
@@ -242,15 +240,45 @@ p.txt_in_box{
 	'Yu Mincho', /* Windows用 */
 	serif;
   position: relative;
-  font-size: 1rem;
 }
-
 span {
+    display: inline-block;
+  }
+
+span.style_1{
   display: inline-block;
   width: 6rem;
+}
+span.style_2{
+  display: inline-block;
+  width: 5rem;
 }
 
 a {
   text-decoration: none;
+}
+@media (max-width: 576px){
+  .contents_below {
+    width: 90%;
+  }
+  .contents_above {
+    width: 96%;
+  }
+
+  table.table_Ad td{
+    border-width: 1px 0px;
+    padding:1rem 1vw;
+  }
+  
+  .contents_QA {
+    width: 90%;
+    max-width: 1200px;
+    margin: 3% auto;
+    font-family :
+    'Yu Mincho', /* Windows用 */
+    serif;
+    position: relative;
+  }
+
 }
 </style>
