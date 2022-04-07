@@ -1,17 +1,17 @@
 <template>
-<ShowTwitter />
-<!--
-<ShowInstagram />
-<ShowYouTube />
--->
+  <ShowTwitter />
+  <!-- <ShowInstagram /> -->
+  <ShowYouTube />
+
 </template>
 
 <script>
 import ShowTwitter from "@/components/ShowTwitter.vue";
 /*
 import ShowInstagram from "@/components/ShowInstagram.vue";
-import ShowYouTube from "@/components/ShowYouTube.vue";
 */
+import ShowYouTube from "@/components/ShowYouTube.vue";
+
 export default {
   data() {
     return {
@@ -20,8 +20,9 @@ export default {
   methods: {
   },
   components: {
+    ShowYouTube,
+//    ShowInstagram,
     ShowTwitter,
-
   },
 };
 </script>
