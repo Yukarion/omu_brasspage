@@ -48,6 +48,7 @@ export default {
   background-color:#E82121;
   width: 100%;
   font-size: calc(1rem - 2 * (1920px - 100vw) / 1560);
+  font-family:'ROCK','GOTHIC';
 }
 
 #footer a {
@@ -94,6 +95,9 @@ export default {
 #copyright{
   transform: scale(0.7) translateX(25%);
   color: #FFFFFF;
+  font-family:
+    'Yu Mincho', /* Windows用 */
+    serif;
 }
 
 </style>

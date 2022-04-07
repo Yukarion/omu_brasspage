@@ -29,7 +29,7 @@ export default {
     moveTop: Function,
     isNotTop: Boolean,
   },
-   data() {
+  data() {
     return {
       isTop: this.isNotTop
     }
@@ -43,6 +43,7 @@ export default {
   width: 100%;
   max-width: 100%;
   font-size: calc(1rem - 2 * (1920px - 100vw) / 1560);
+  font-family:'GOTHIC';
 }
 
 .access-top {
