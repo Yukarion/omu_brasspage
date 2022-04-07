@@ -70,4 +70,10 @@ export default {
   object-fit: cover;
   }
 
+  @media screen and (max-width: 767px) {
+  .col-4 {
+  max-width: 40%;
+  }
+  }
+
 </style>
