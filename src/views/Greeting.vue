@@ -27,7 +27,7 @@ h1 {
   font-size: 2rem;
 }
 h2 {
-  margin-bottom: 8%;
+  margin-bottom: 6%;
   font-size: 1.5rem;
 }
 .image_header {
@@ -44,12 +44,13 @@ h2 {
   margin: 5% auto;
   width: 83%;
   max-width: 900px; 
-  font-family :
-	'Yu Mincho', /* Windows用 */
-	serif;
+  font-family:
+    'Yu Mincho', /* Windows用 */
+    serif;
   font-size: 0.9rem;
 }
 .txt_1 {
-  text-align: left;
+  text-align: justify;
+  text-justify: inter-ideograph;
 }
 </style>
