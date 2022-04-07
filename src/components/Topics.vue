@@ -3,7 +3,7 @@
     <div class="row align-items-center justify-content-center">
       <div class="col-md-4">
         <h6>twitter</h6>
-        <ShowTwitter /> 
+        <ShowTwitter />
       </div>
       <div class="col-md-8">
         <h6>Instagram</h6>
