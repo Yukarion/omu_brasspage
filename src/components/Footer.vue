@@ -21,10 +21,10 @@
             </div>
           </div>
         </div>
-        <hr id="vertical-line">
+        <div class="border"></div>
         <div id="copyright-lap">
           <div id="copyright">
-            Copyright @ 2022 Osaka Metropolitan University Wind Auchestra All Right Reserved.
+            Copyright @ 2022 Osaka Metropolitan University Wind Orchestra All Right Reserved.
           </div>
         </div>
       </div>
@@ -97,6 +97,11 @@ export default {
   font-family:
     'Yu Mincho', /* Windows用 */
     serif;
+}
+
+.border{
+  border: #FFFFFF;
+  margin: 3% auto;
 }
 
 </style>
