@@ -8,13 +8,16 @@
       </div>
       <div class="col-9 menu">
         <div id="header-items">
+          <div class="items-lap">
             <router-link class="item" to="/greeting" @click="leaveTop()">ご挨拶</router-link>
             <router-link class="item" to="/about" @click="leaveTop()">活動紹介</router-link>
             <router-link class="item" to="/advertise" @click="leaveTop()">部員募集</router-link>
-            <router-link class="item" to="/request" @click="leaveTop()">演奏会のご依頼</router-link>
+          </div>
+          <div class="items-lap">
+            <router-link class="item" to="/request" @click="leaveTop()">ご依頼</router-link>
             <router-link class="item" to="/archive" @click="leaveTop()">過去の演奏会</router-link>
             <a href="" class="item" target="_blank" rel="noopener" @click="leaveTop()">部員ポータル</a>
-            <router-link class="item" to="/link" @click="leaveTop()">リンク</router-link>
+          </div>
         </div>
       </div>
     </div>
@@ -47,7 +50,7 @@ export default {
 }
 
 .access-top {
-  padding: 0.5rem 0rem;
+  margin: 0.5rem 0rem;
 }
 
 .menu {
