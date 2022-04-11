@@ -63,15 +63,19 @@ export default {
 
 #header-items{
   position: absolute;
-  top: 50%;
-  right: 3%;
-  transform: translateY(-50%);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  height: 3rem;
   text-align: end;
 }
 
 #header-items a {
   color: #2c3e50;
-  padding: 1rem 0.5rem;
+  margin: auto calc(3vw - 0.4rem);
 }
 
 #brass-logo {
