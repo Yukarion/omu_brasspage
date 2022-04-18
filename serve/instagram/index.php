@@ -157,20 +157,8 @@ if(file_exists(config::INSTA_DATA)){
 
 $json = file_get_contents(dirname(__FILE__).config::INSTA_DATA);
 
-/*
-header('Access-Control-Allow-Origin: http://localhost:8080');
-// header('Access-Control-Allow-Origin: https://omu-brass.com');
+header('Access-Control-Allow-Origin: https://omu-wind.com');
 header('Content-Type: application/json');
 
-echo $res;
-*/
-
-$res = json_decode($res);
-// echo '<h3>４－３．インスタグラムの投稿データを表示</h3>'."\n";
-foreach ($res->media->data as $post) {
-
-  echo "<h4>CAPTION: {$post->caption}</h4>";
-  echo "<a href=\"{$post->permalink}\">";
-  echo "<img src=\"{$post->media_url}\" alt=\"{$post->caption}\" style=\"max-height:100px;max-width:100px;\"/>";
-  echo "</a>";
+echo $json;
 }

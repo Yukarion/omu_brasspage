@@ -13,19 +13,18 @@
               <router-link class="item" to="/greeting" @click="leaveTop()">ご挨拶</router-link>
               <router-link class="item" to="/about" @click="leaveTop()">活動紹介</router-link>
               <router-link class="item" to="/advertise" @click="leaveTop()">部員募集</router-link>
-              <router-link class="item" to="/request" @click="leaveTop()">演奏会のご依頼</router-link>
             </div>
             <div class="items-lap">
+              <router-link class="item" to="/request" @click="leaveTop()">ご依頼</router-link>
               <router-link class="item" to="/archive" @click="leaveTop()">過去の演奏会</router-link>
               <a href="" class="item" target="_blank" rel="noopener" @click="leaveTop()">部員ポータル</a>
-              <router-link class="item" to="/link" @click="leaveTop()">リンク</router-link>
             </div>
           </div>
         </div>
-        <hr id="vertical-line">
+        <div class="border"></div>
         <div id="copyright-lap">
           <div id="copyright">
-            Copyright @ 2022 Osaka Metropolitan University Brass Band All Right Reserved.
+            Copyright @ 2022 Osaka Metropolitan University Wind Orchestra All Right Reserved.
           </div>
         </div>
       </div>
@@ -98,6 +97,11 @@ export default {
   font-family:
     'Yu Mincho', /* Windows用 */
     serif;
+}
+
+.border{
+  border: #FFFFFF;
+  margin: 3% auto;
 }
 
 </style>

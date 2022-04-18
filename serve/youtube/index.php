@@ -36,8 +36,7 @@ if(file_exists($filename)){
 
 //ローカルjson出力
 $json = @file_get_contents($filename);
-header('Access-Control-Allow-Origin: http://localhost:8080');
-// header('Access-Control-Allow-Origin: https://omu-brass.com');
+header('Access-Control-Allow-Origin: https://omu-wind.com');
 header('Content-Type: application/json');
 echo $json;
 ?>

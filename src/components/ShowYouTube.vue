@@ -20,7 +20,7 @@ export default {
   },
   async mounted(){
     try {
-      const url = 'https://youtube.omu-brass.com/';
+      const url = 'https://youtube.omu-wind.com/';
       const response = await fetch(url, {mode: 'cors'});
       if(response.ok) {
         const json = await response.json();
@@ -40,13 +40,20 @@ export default {
 <style>
 
   .embed-responsive-item {
-    width: 60%;
-    height: 30rem;
+    width: 70%;
+    height: 45vw;
+    padding-bottom: 3%;
   }
   @media screen and (max-width: 767px) {
     .embed-responsive-item {
       width: 80%;
-      height: 30rem;
+      height: 45vw;
+    }
+  }
+  @media screen and (max-width: 532px) {
+    .embed-responsive-item {
+      width: 80%;
+      height: 45vw;
     }
   }
 </style>
