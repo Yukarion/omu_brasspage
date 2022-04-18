@@ -1,6 +1,6 @@
 <template>
   <div class="instagram">
-    <div class="container">
+    <div class="container" id="box">
       <div v-if="load" class="row">
         <div v-for="(post, name, index) in post_data" :key="index" :class="index" class="col-4">
           <a :href="post.permalink" target="_blank" rel="noopener" >
@@ -70,10 +70,13 @@ export default {
   object-fit: cover;
   }
 
+
+
   @media screen and (max-width: 767px) {
-  .col-4 {
-  max-width: 40%;
-  }
+    .col-4 {
+    max-width: 40%;
+    }
+    #box { padding: 0%; }
   }
 
 </style>

@@ -305,7 +305,7 @@ p.txt_time{
   }
   .head-border_2:after {
     margin-left: 1rem;
-    padding-left: 68%;
+    padding-left: 60%;
   }
 
 }
