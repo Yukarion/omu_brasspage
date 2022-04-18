@@ -1,11 +1,11 @@
 <template>
   <div class="container">
     <div class="row align-items-center justify-content-center">
-      <div class="col-md-4">
-        <h6>twitter</h6>
-        <ShowTwitter /> 
+      <div class="col-md-4" id="twitter">
+        <h6>Twitter</h6>
+        <ShowTwitter />
       </div>
-      <div class="col-md-8">
+      <div class="col-md-8" id="insta">
         <h6>Instagram</h6>
         <ShowInstagram />
       </div>
@@ -39,7 +39,7 @@ export default {
     padding: 3%;
   }
   h6{
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #c34242;
     padding: 2%;
   }
@@ -49,4 +49,15 @@ export default {
     max-width: 1500px;
     padding: 0% 5%;
   }
+
+  @media screen and (max-width: 576px){
+  .container {
+      margin: auto;
+      max-width: 1500px;
+      padding: 0% 5%;
+    
+  }
+  #twitter{width: 75%;}
+  #insta { padding: 0%;}
+}
 </style>

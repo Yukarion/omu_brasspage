@@ -76,6 +76,10 @@ h1, h2, h3, h4, h5, h6 {
   box-sizing: content-box;
 }
 
+.row{
+  --bs-gutter-x: 0;
+}
+
 a {
   text-decoration:none;
 }
