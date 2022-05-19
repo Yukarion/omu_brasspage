@@ -16,7 +16,7 @@
           <div class="items-lap">
             <router-link class="item" to="/request" @click="leaveTop()">ご依頼</router-link>
             <router-link class="item" to="/archive" @click="leaveTop()">過去の演奏会</router-link>
-            <a href="" class="item" target="_blank" rel="noopener" @click="leaveTop()">部員ポータル</a>
+            <router-link class="item" to="/portal" @click="leaveTop()">部員ポータル</router-link>
           </div>
         </div>
       </div>

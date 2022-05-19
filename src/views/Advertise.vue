@@ -66,7 +66,7 @@
           </td>
         </tr>
       </table>
-      
+
     </div>
   </div>
   <h1 class="siteTt_1">Q&A</h1>
@@ -119,7 +119,7 @@
         </td>
       </tr>
     </table>
-  
+
   </div>
 </template>
 
@@ -269,7 +269,7 @@ a {
     border-width: 1px 0px;
     padding:1rem 1vw;
   }
-  
+
   .contents_QA {
     width: 90%;
     max-width: 1200px;
