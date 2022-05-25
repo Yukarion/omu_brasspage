@@ -42,9 +42,9 @@ const routes = [
     component: () => import("../views/Archive.vue"),
   },
   {
-    path: "/link",
-    name: "Link",
-    component: () => import("../views/Link.vue"),
+    path: "/portal",
+    name: "Portal",
+    component: () => import("../views/Portal.vue"),
   },
 ];
 
