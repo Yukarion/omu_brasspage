@@ -36,7 +36,7 @@
           <span>お祭り、</span>老人ホームでの演奏ステージ<br>
           </td>
         </tr>
-        
+
         <tr>
           <td>曲目例</td>
           <td id="exception_1">
@@ -67,7 +67,7 @@
           </td>
         </tr>
       </table>
-      
+
     </div>
   </div>
 </template>
@@ -119,20 +119,20 @@
   #exception_2 {
     border-style: none;
   }
-  
+
   table.table_in_tb {
     text-align: left;
     width: 100%;
     margin: 0;
     padding-right: 0%;
-    
+
   }
   table.table_in_tb td{
     margin: 0;
     border-style: none;
     border-bottom: 1px solid #333;
     padding-right: 0%;
-    
+
   }
   span {
     display: inline-block;
@@ -148,7 +148,7 @@
     .contents_below {
       width: 80%;
     }
-    
+
   }
   @media (max-width: 576px){
     .box {
@@ -157,7 +157,7 @@
     .contents_below {
       width: 96%;
     }
-    
+
   }
-  
+
 </style>
