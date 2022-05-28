@@ -5,7 +5,7 @@
       <div class="link container-md">
         <h1 class="h3 mb-3 fw-normal">資料用ドライブ</h1>
         <div class="googleDrive drive">
-          <a class="h3 row" href="">
+          <a class="h3 row" href="https://drive.google.com/drive/folders/1SXHaCE8-s9hsAgtmteepCZVSI--vGQyB?usp=sharing">
             <div class="image_ico col-3"><img src="../assets/GoogleDrive.png"></div>
             <div class="drive_txt col-9">
               <h1 class="h3 drive_name">大阪公立大学吹奏楽部 共有ドライブ</h1>
