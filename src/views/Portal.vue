@@ -14,7 +14,7 @@
           </a>
         </div>
         <div class="oneDrive drive">
-          <a class="h3 row" href="https://onedrive.live.com/about/ja-jp/">
+          <a class="h3 row" href="http://www.opu-brass.com/portal/">
             <div class="image_ico col-3"><img src="../assets/OneDrive.png"></div>
             <div class="drive_txt col-9">
               <h1 class="h3 drive_name">旧 大阪府立大学吹奏楽部 共有ドライブ</h1>
