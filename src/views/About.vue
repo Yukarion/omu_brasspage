@@ -41,7 +41,7 @@
           もちろん、居残り練習を強制するような雰囲気はありません。</p>
         </div>
         <div class="col-sm-12 col-md-4">
-          <figure class="side_img"><img src="../assets/about_flow_1.png"></figure>
+          <figure class="side_img"><img src="../assets/about_flow_4.png"></figure>
         </div>
       </div>
     </div>
@@ -55,7 +55,7 @@
           <h3><span id="StR">サマーコンサート</span></h3>
           <p class="txt_time">開催時期：5月末</p>
           <p class="txt_side_2">有名な吹奏楽曲や、よく耳にするポップスを取り入れた劇を披露したりと、華やかな雰囲気を重視した演奏会となっています。
-          １回生にとっては初めての部隊ですが、全ての曲に参加する必要はなく、劇中のダンスの練習などを通して吹奏楽部に馴染んでもらうことを目的としています。
+          １回生にとっては初めての舞台ですが、全ての曲に参加する必要はなく、劇中のダンスの練習などを通して吹奏楽部に馴染んでもらうことを目的としています。
           </p>
         </div>
         <div class="border"></div>
@@ -110,7 +110,7 @@ h2 {
 }
 
 h3 {
-  text-align: left;
+  text-align: center;
   font-size: 1.2rem;
 }
 
@@ -130,7 +130,7 @@ h3 {
   height: auto;
 }
 .container{
-  width: 70%;
+  width: 80%;
 }
 p.txt_side_1 {
   width: 100%;
@@ -138,6 +138,7 @@ p.txt_side_1 {
   font-size: 0.8rem;
   line-height: 200%;
   padding-left: 20%;
+  padding-right: 3%;
 
 }
 p.txt_side_2 {
@@ -145,7 +146,7 @@ p.txt_side_2 {
   text-align: left;
   font-size: 0.8rem;
   line-height: 200%;
-
+  
 }
 
 p.txt_time{
@@ -173,7 +174,7 @@ p.txt_time{
 
 .head-border:after {
   margin-left: 1rem;
-  padding-left: 70%;
+  padding-left: 65%;
 }
 
 .head-border_2 {
@@ -197,18 +198,22 @@ p.txt_time{
 
 .head-border_2:after {
   margin-left: 1rem;
-  padding-left: 79%;
+  padding-left: 77%;
 }
 .border{
   border: #666;
   margin: 3% auto;
 }
 
+.col-sm-12{
+  padding-left: 3%;
+}
+
 #StR{background: linear-gradient(transparent 0%, #ffA0A0 0%);}
 
 @media screen and (max-width: 1090px){
   .container{
-    width: 80%;
+    width: 85%;
   }
   p.txt_side_1 {
     padding-left: 10%;
@@ -243,7 +248,7 @@ p.txt_time{
   font-size: 1.2rem;
   }
   .container{
-    width: 80%;
+    width: 90%;
   }
   p.txt_side_1 {
     width: 90%;

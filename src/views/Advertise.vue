@@ -9,7 +9,7 @@
         </p>
       </div>
       <div class="box">
-        <p class="txt_in_box">活動紹介</p>
+        <p class="txt_in_box" id="center">活動紹介</p>
       </div>
       <div class="txt_2">
         <p>入部希望者や、活動に興味がある方は募集要項を確認の上、<br>
@@ -252,6 +252,9 @@ span.style_1{
 span.style_2{
   display: inline-block;
   width: 5rem;
+}
+#center{
+  text-align: center;
 }
 
 a {
