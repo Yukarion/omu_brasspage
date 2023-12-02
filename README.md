@@ -1,24 +1,26 @@
 # omu_brasspage
 
-## Project setup
-```
+## セットアップ
+
+### 依存パッケージのインストール
+
+```bash
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+### 開発サーバーの起動
+
+```bash
+npm run dev
 ```
 
-### Compiles and minifies for production
-```
+開発サーバーが起動すると、[http://localhost:5173/](http://localhost:5173/) でアプリケーションを確認できます。
+
+### 本番ビルドの実行
+
+```bash
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+本番用のビルドが生成されます。
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
