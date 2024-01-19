@@ -75,7 +75,7 @@
           </div>
           <div class="col-md-12 col-lg-6 content-wrapper">
             <figure class="side_img">
-              <img src="../assets/about_flow_1.png" />
+              <img src="../assets/about_flow_4.png" />
             </figure>
           </div>
         </div>
