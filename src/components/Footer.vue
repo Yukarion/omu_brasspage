@@ -43,6 +43,11 @@ export default {
 </script>
 
 <style>
+.item {
+  white-space: nowrap;
+  padding: 0.5rem 0.5rem;
+}
+
 #footer {
   background-color: #c34242;
   width: 100%;

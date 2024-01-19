@@ -53,12 +53,14 @@ export default {
   margin: 0.5rem 0rem;
 }
 
+
 .menu {
   position: relative;
 }
 
 .item {
   white-space: nowrap;
+  padding: 0.5rem 0.5rem;
 }
 
 #header-items{
@@ -71,6 +73,7 @@ export default {
   width: 100%;
   height: 3rem;
   text-align: end;
+  padding: 0.5rem 0rem;
 }
 
 #header-items a {
