@@ -24,7 +24,7 @@
             <p class="txt_side">
               部長による出欠確認と合奏予定の連絡から部活が始まります。
               始礼から合奏までの時間は音出しという扱いですが、基礎練習・曲練習・パート練習など、時間の使い方は自由です。
-              指令の時点で集まっている部員は半分ほどで、授業を終えていない公立大生や移動中の他大生もいることから、自由度のある時間として設けています。
+              始令の時点で集まっている部員は半分ほどで、授業を終えていない公立大生や移動中の他大生もいることから、自由度のある時間として設けています。
             </p>
           </div>
           <div class="col-md-12 col-lg-6 content-wrapper">
@@ -79,11 +79,11 @@
             </figure>
           </div>
         </div>
-      <h1>主な行事</h1>
-      <div class="container">
+      <div>
+        <h1>主な行事</h1>
         <div class="row align-items-center content-wrapper">
           <div class="col-sm-12 col-md-6">
-            <figure class="side_img">
+            <figure class="side_img content-wrapper">
               <img src="../assets/about_events_1.png" />
             </figure>
           </div>
@@ -99,7 +99,7 @@
         </div>
         <div class="row align-items-center">
           <div class="col-sm-12 col-md-6 content-wrapper">
-            <figure class="side_img">
+            <figure class="side_img content-wrapper">
               <img src="../assets/about_events_2.png" />
             </figure>
           </div>
@@ -117,7 +117,7 @@
           </div>
           <div class="border"></div>
           <div class="col-sm-12 col-md-6 content-wrapper">
-            <figure class="side_img">
+            <figure class="side_img content-wrapper">
               <img src="../assets/about_events_3.png" />
             </figure>
           </div>
