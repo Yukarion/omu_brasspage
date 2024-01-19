@@ -4,7 +4,7 @@
     <div class="large-wrapper">
       <div class="wrapper">
       <div class="contents-top">
-        <h1>演奏会のご依頼</h1>
+        <h1>ご依頼について</h1>
         <p>
           当部では学内外を問わず依頼演奏を承っております。<br />
           お客様のご要望に合わせて様々な形態を用意して、<br />
@@ -142,10 +142,10 @@ $brand-color: #c34242;
   p {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    margin-left: 3rem;
+    margin: 3rem;
     text-align: left;
     @include media-query($small-content-width) {
-      margin-left: 1rem;
+      margin: 1rem;
     }
   }
   
