@@ -154,6 +154,7 @@ table.table_qa tr{
 p.txt_in_box{
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 .box {
   width: 40%;
