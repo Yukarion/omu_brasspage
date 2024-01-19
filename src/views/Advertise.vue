@@ -5,19 +5,19 @@
       <div class="wrapper">
         <div class="contents-top">
           <h1>ようこそ公立大吹奏楽部へ！</h1>
-              <p>
-                大阪公立大学吹奏楽部では年間を通じて部員を募集しています。<br />
-                まずは活動紹介をご覧ください。活動の用紙や部の雰囲気を紹介しております。
-              </p>
-            <div class="border-box">
-              <p>活動紹介</p>
-            </div>
-              <p>
-                入部希望者や、活動に興味がある方は募集要項を確認の上、<br />
-                募集要項記載の連絡先にお問い合わせください。<br />
-                直接活動場所に出向いていただいても構いません。<br />
-                話を聞くだけや部の雰囲気を見たいだけの方でも大歓迎です！<br />
-              </p>
+          <p>
+            大阪公立大学吹奏楽部では年間を通じて部員を募集しています。<br />
+            まずは活動紹介をご覧ください。活動の用紙や部の雰囲気を紹介しております。
+          </p>
+          <div class="border-box">
+            <p>活動紹介</p>
+          </div>
+          <p>
+            入部希望者や、活動に興味がある方は募集要項を確認の上、<br />
+            募集要項記載の連絡先にお問い合わせください。<br />
+            直接活動場所に出向いていただいても構いません。<br />
+            話を聞くだけや部の雰囲気を見たいだけの方でも大歓迎です！<br />
+          </p>
         </div>
         <div>
           <h1>募集要項</h1>
@@ -124,9 +124,7 @@
                   <div class="icon-with-qa gray">
                     <p>Q</p>
                   </div>
-                  <p>
-                    りんくうキャンパスから通うのって難しいですかね…
-                  </p>
+                  <p>りんくうキャンパスから通うのって難しいですかね…</p>
                 </div>
                 <div class="cell">
                   <div class="icon-with-qa">
@@ -165,9 +163,7 @@
                   <div class="icon-with-qa gray">
                     <p>Q</p>
                   </div>
-                  <p>
-                    本当に初心者でも大丈夫なんでしょうか？
-                  </p>
+                  <p>本当に初心者でも大丈夫なんでしょうか？</p>
                 </div>
                 <div class="cell">
                   <div class="icon-with-qa">
@@ -223,7 +219,7 @@ table.table_qa tr {
   border-bottom: solid 1px gray;
 }
 
-.cell{
+.cell {
   display: flex;
   align-items: center;
   margin: 1rem 0;
@@ -233,21 +229,14 @@ table.table_qa tr {
   border: 1px solid $text-color;
   padding: 1.5rem 0;
   width: 40%;
-  p{
+  p {
     text-align: center;
   }
 }
-.image_header img {
-  display: block;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
 .icon-with-qa {
   margin: 0.5rem;
-  width: 1rem *1.5 ;
-  height: 1rem *1.5;
+  width: 1rem * 1.5;
+  height: 1rem * 1.5;
   background-color: $brand-color;
   display: flex;
   align-items: center;
@@ -260,7 +249,6 @@ table.table_qa tr {
     margin: auto;
     color: $surface-color;
   }
-  
 }
 
 .gray {
@@ -279,5 +267,4 @@ span.style_2 {
   display: inline-block;
   width: 5rem;
 }
-
 </style>
