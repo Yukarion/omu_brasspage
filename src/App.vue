@@ -31,8 +31,7 @@ export default {
 <style lang="scss">
 
 @use 'sass:math';
-@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Noto+Sans+JP&family=Work+Sans:wght@300&family=Zen+Old+Mincho&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Noto+Sans+JP:wght@400;600&family=Zen+Old+Mincho:wght@400;600&display=swap');
 html {
   font-size: calc(12px + 10 * (100vw - 375px) / 1545);
 }
