@@ -3,20 +3,36 @@
     <div class="row">
       <div class="col-3 access-top">
         <router-link to="/" @click="moveTop()" v-if="isTop">
-          <img id="brass-logo" alt="omu_brass ico" src="../assets/omu_brass_logo_red.png" />
+          <img
+            id="brass-logo"
+            alt="omu_brass ico"
+            src="../assets/omu_brass_logo_red.png"
+          />
         </router-link>
       </div>
       <div class="col-9 menu">
         <div id="header-items">
           <div class="items-lap">
-            <router-link class="item" to="/greeting" @click="leaveTop()">ご挨拶</router-link>
-            <router-link class="item" to="/about" @click="leaveTop()">活動紹介</router-link>
-            <router-link class="item" to="/advertise" @click="leaveTop()">部員募集</router-link>
+            <router-link class="item" to="/greeting" @click="leaveTop()"
+              >ご挨拶</router-link
+            >
+            <router-link class="item" to="/about" @click="leaveTop()"
+              >活動紹介</router-link
+            >
+            <router-link class="item" to="/advertise" @click="leaveTop()"
+              >部員募集</router-link
+            >
           </div>
           <div class="items-lap">
-            <router-link class="item" to="/request" @click="leaveTop()">ご依頼</router-link>
-            <router-link class="item" to="/archive" @click="leaveTop()">過去の演奏会</router-link>
-            <router-link class="item" to="/portal" @click="leaveTop()">部員ポータル</router-link>
+            <router-link class="item" to="/request" @click="leaveTop()"
+              >ご依頼</router-link
+            >
+            <router-link class="item" to="/archive" @click="leaveTop()"
+              >過去の演奏会</router-link
+            >
+            <router-link class="item" to="/portal" @click="leaveTop()"
+              >部員ポータル</router-link
+            >
           </div>
         </div>
       </div>
@@ -34,25 +50,25 @@ export default {
   },
   data() {
     return {
-      isTop: this.isNotTop
-    }
+      isTop: this.isNotTop,
+    };
   },
 };
 </script>
 
 <style>
-
 .header {
   width: 100%;
   max-width: 100%;
   font-size: calc(1rem - 2 * (1920px - 100vw) / 1560);
-  font-family:'GOTHIC';
+  font-weight: 600;
+  font-family: "Zen Old Mincho", "Yu Mincho", "Arvo", "Noto Sans JP", sans-serif,
+    serif;
 }
 
 .access-top {
   margin: 0.5rem 0rem;
 }
-
 
 .menu {
   position: relative;
@@ -63,7 +79,7 @@ export default {
   padding: 0.5rem 0.5rem;
 }
 
-#header-items{
+#header-items {
   position: absolute;
   top: 0;
   right: 0;
@@ -84,5 +100,4 @@ export default {
 #brass-logo {
   width: 100%;
 }
-
 </style>

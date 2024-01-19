@@ -6,8 +6,11 @@
         <h1>{{ title }}</h1>
       </div>
       <div class="image-overlay mask"></div>
-      <img :src="`src/assets/${fileName}`" alt="Hero Image" class="image-overlay" />
-
+      <img
+        :src="`src/assets/${fileName}`"
+        alt="Hero Image"
+        class="image-overlay"
+      />
     </div>
   </div>
 </template>
@@ -33,13 +36,13 @@ $medium-content-width: 768px;
 $small-content-width: 576px;
 @mixin media-query($width) {
   @media (max-width: $width) {
-      @content;
+    @content;
   }
 }
 .hero-image-container {
   display: block;
-	width: 100%;
-	height: auto;
+  width: 100%;
+  height: auto;
   object-fit: cover;
 }
 
@@ -83,13 +86,11 @@ $small-content-width: 576px;
     font-size: 2.5rem;
     margin-bottom: 10px;
     color: white;
-    font-family:'Zen Old Mincho','Yu Mincho','Arvo','Noto Sans JP', 
-    sans-serif,serif;
+    font-family: "Zen Old Mincho", "Yu Mincho", "Arvo", "Noto Sans JP",
+      sans-serif, serif;
     @include media-query($small-content-width) {
       font-size: 2rem;
     }
   }
 }
-
-
 </style>
