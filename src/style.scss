@@ -1,0 +1,9 @@
+html {
+  font-size: calc(12px + 10 * (100vw - 375px) / 1545);
+}
+
+@mixin media-query($width) {
+  @media (min-width: $width) {
+      @content;
+  }
+}
