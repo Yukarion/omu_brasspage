@@ -3,7 +3,7 @@
     <div class v-if="load">
       <iframe class="embed-responsive-item" :src="link" title="YouTube video player" allow=" fullscreen"></iframe>
     </div>
-    <div v-else>
+    <div v-else class="loading">
       Now loading...
     </div>
   </div>
@@ -39,6 +39,10 @@ export default {
 
 <style>
 
+  .loading{
+    text-align: center;
+    padding: 1rem 1rem
+  }
   .embed-responsive-item {
     width: 70%;
     height: 45vw;

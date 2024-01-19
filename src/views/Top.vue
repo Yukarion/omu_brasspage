@@ -32,6 +32,9 @@ export default {
 
 
 <style>
+h1 {
+  text-align: center;
+}
 
 .image_header img {
 	display: block;

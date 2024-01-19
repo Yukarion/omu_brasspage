@@ -9,7 +9,7 @@
           </a>
         </div>
       </div>
-      <div v-else>
+      <div v-else class="loading">
         Now loading...
       </div>
     </div>
@@ -45,8 +45,9 @@ export default {
 </script>
 
 <style>
-  .container {
-    margin: 0;
+  .loading{
+    text-align: center;
+    padding: 1rem 1rem
   }
   .row {
   width: 100%;

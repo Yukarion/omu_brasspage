@@ -1,8 +1,6 @@
 <template>
   <div class="request">
-    <div class="image_header">
-      <img src="../assets/request_header.png" />
-    </div>
+    <HeroImage fileName="request_header.png" title="演奏のご依頼" />
     <div class="large-wrapper">
       <div class="wrapper">
       <div class="contents-top">
@@ -17,7 +15,7 @@
         </p>
       </div>
       <div class="box">
-        <p class="txt_in_box">
+        <p>
           ・依頼演奏に際しての運搬用トラックなどはこちらで<span
             >準備いたします。</span
           ><br />
@@ -70,7 +68,7 @@
                 </td>
               </tr>
               <tr>
-                <td id="exception_2">ポップス曲</td>
+                <td id="exception_2">ポップス</td>
                 <td id="exception_2">
                   ルパン三世のテーマ、学園天国、あー夏休み、いい旅立ち、
                   <span>笑ってたいんだ、</span
@@ -104,14 +102,17 @@
   </div>
 </template>
 
-<style>
-.tmp img {
-  display: block;
-  margin: auto;
-  width: 60%;
-  height: auto;
-  object-fit: cover;
-}
+<script>
+import HeroImage from "@/components/HeroImage.vue";
+
+export default {
+  components: {
+    HeroImage,
+  },
+};
+</script>
+
+<style lang="scss">
 
 .image_header img {
   display: block;
@@ -120,16 +121,17 @@
   object-fit: cover;
 }
 
-p.txt_in_box {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  margin-left: 3rem;
-  text-align: left;
-}
+
 .box {
   margin: 2rem auto;
   border: 1px solid #333;
   padding: 1rem 0;
+  p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 3rem;
+    text-align: left;
+  }
 }
 table.table_Rq {
   text-align: left;

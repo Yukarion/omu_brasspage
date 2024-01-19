@@ -1,8 +1,6 @@
 <template>
     <div class="greeting">
-        <div class="image_header">
-            <img src="../assets/greeting_header.png" />
-        </div>
+        <HeroImage fileName="greeting_header.png" title="ごあいさつ" />
         <div class="large-wrapper">
         <div class="wrapper">
             <div class="title">
@@ -21,6 +19,16 @@
       </div>
     </div>
 </template>
+
+<script>
+import HeroImage from "@/components/HeroImage.vue";
+
+export default {
+  components: {
+    HeroImage,
+  },
+};
+</script>
 
 <style scoped>
 .greeting {
