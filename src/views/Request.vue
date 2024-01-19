@@ -14,7 +14,7 @@
           >
         </p>
       </div>
-      <div class="box">
+      <div class="bullet-points-box">
         <p>
           ・依頼演奏に際しての運搬用トラックなどはこちらで<span
             >準備いたします。</span
@@ -113,6 +113,18 @@ export default {
 </script>
 
 <style lang="scss">
+$large-content-width: 1090px;
+$medium-content-width: 768px;
+$small-content-width: 576px;
+$surface-color: #ffffff;
+$text-color: #484848;
+$brand-color: #c34242;
+
+@mixin media-query($width) {
+  @media (max-width: $width) {
+    @content;
+  }
+}
 
 .image_header img {
   display: block;
@@ -122,16 +134,21 @@ export default {
 }
 
 
-.box {
+.bullet-points-box{
   margin: 2rem auto;
-  border: 1px solid #333;
+  border: solid 1px $text-color;
   padding: 1rem 0;
+  
   p {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     margin-left: 3rem;
     text-align: left;
+    @include media-query($small-content-width) {
+      margin-left: 1rem;
+    }
   }
+  
 }
 table.table_Rq {
   text-align: left;

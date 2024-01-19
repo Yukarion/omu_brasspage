@@ -10,7 +10,7 @@
                 大阪公立大学吹奏楽部では年間を通じて部員を募集しています。<br />
                 まずは活動紹介をご覧ください。活動の用紙や部の雰囲気を紹介しております。
               </p>
-            <div class="box">
+            <div class="border-box">
               <p>活動紹介</p>
             </div>
               <p>
@@ -230,7 +230,7 @@ table.table_qa tr {
   align-items: center;
   margin: 1rem 0;
 }
-.box {
+.border-box {
   margin: 1rem auto;
   border: 1px solid $text-color;
   padding: 1.5rem 0;
