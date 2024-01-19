@@ -133,13 +133,45 @@ p {
 }
 
 
+
 #app {
   font-family:
     'Yu Mincho', /* Windows用 */
     serif;
+  animation-name: fadeInAnime;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-overflow-style: none;
+  transition: all 0.4s ease-in-out;
 }
 
+@keyframes fadeInAnime {
+  from {
+      opacity: 0;
+  }
 
+  to {
+      opacity: 1;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+  width: 16px;
+  background-color: gray;
+  visibility: hidden;
+}
+
+::-webkit-scrollbar-thumb {
+  opacity: 0.8;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px 10px gray;
+  border: solid 3px transparent;
+}
 
 #nav {
   padding: 30px;
