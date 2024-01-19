@@ -52,7 +52,9 @@ export default {
   background-color: #c34242;
   width: 100%;
   font-size: calc(1rem - 2 * (1920px - 100vw) / 1560);
-  font-family:'ROCK','GOTHIC';
+  font-weight: 600;
+  font-family: "Zen Old Mincho", "Yu Mincho", "Arvo", "Noto Sans JP", sans-serif,
+    serif;
 }
 
 #footer a {
