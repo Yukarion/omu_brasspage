@@ -137,6 +137,8 @@ p {
 #app {
   font-family:
     'Yu Mincho', /* Windows用 */
+    'Zen Old Mincho',
+    'Noto Sans JP',
     serif;
   animation-name: fadeInAnime;
   animation-duration: 2s;
@@ -179,18 +181,9 @@ p {
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: $text-color;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-
-#header {
-  padding: 10px;
-  font-weight: bold;
-  color: #2c3e50;
-}
 
 .selector-for-some-widget {
   box-sizing: content-box;
