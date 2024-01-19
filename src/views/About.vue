@@ -9,7 +9,13 @@
     </div>
     <div class="container">
       <div class="row align-items-center">
-        <h2 class="head-border"><div class="icon"><img src="../assets/icon_about_1630.png"></div>始令・音出し</h2>
+        <div class="header-wrapper-schedule">
+          <div class="icon-with-time">
+            <p>16:30</p>
+          </div>
+          <h2>始令・音出し</h2>
+          <div class="horizontal-line"></div>
+        </div>
         <div class="col-sm-12 col-md-8">
           <p class="txt_side_1">部長による出欠確認と合奏予定の連絡から部活が始まります。
           始礼から合奏までの時間は音出しという扱いですが、基礎練習・曲練習・パート練習など、時間の使い方は自由です。
@@ -20,7 +26,13 @@
         </div>
       </div>
       <div class="row align-items-center">
-        <h2 class="head-border_2"><div class="icon"><img src="../assets/icon_about_1730.png"></div>合奏</h2>
+        <div class="header-wrapper-schedule">
+          <div class="icon-with-time">
+            <p>17:30</p>
+          </div>
+          <h2>合奏</h2>
+          <div class="horizontal-line"></div>
+        </div>
         <div class="col-sm-12 col-md-8">
           <p class="txt_side_1">１曲あたり30~60分の合奏練習をします。
             当部には正指揮者と言われる3回生の指揮者と、副指揮者と言われる２回生の指揮者がいます。
@@ -34,7 +46,13 @@
         </div>
       </div>
       <div class="row align-items-center">
-        <h2 class="head-border_2"><div class="icon"><img src="../assets/icon_about_1900.png"></div>終礼</h2>
+        <div class="header-wrapper-schedule">
+          <div class="icon-with-time">
+            <p>19:00</p>
+          </div>
+          <h2>終礼</h2>
+          <div class="horizontal-line"></div>
+        </div>
         <div class="col-sm-12 col-md-8">
           <p class="txt_side_1">部長をはじめ各役職から諸連絡をして、部活が終わります。
           居残り練習をしたり、仲の良いもの同士で帰ったり、パートで食事に行ったりなど、終礼後の過ごし方は様々です。
