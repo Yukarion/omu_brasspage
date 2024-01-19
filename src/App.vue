@@ -1,17 +1,22 @@
 <template>
-  <Header v-if="!isTop" :leaveTop="leaveTop" :moveTop="moveTop" :isNotTop="true"/>
+  <Header
+    v-if="!isTop"
+    :leaveTop="leaveTop"
+    :moveTop="moveTop"
+    :isNotTop="true"
+  />
   <router-view :leaveTop="leaveTop" :moveTop="moveTop" />
-  <Footer :leaveTop="leaveTop" :moveTop="moveTop"/>
+  <Footer :leaveTop="leaveTop" :moveTop="moveTop" />
 </template>
 
-<script >
+<script>
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 export default {
   data() {
     return {
-      isTop: true
-    }
+      isTop: true,
+    };
   },
   methods: {
     moveTop() {
@@ -19,7 +24,7 @@ export default {
     },
     leaveTop() {
       this.isTop = false;
-    }
+    },
   },
   components: {
     Header,
@@ -29,9 +34,8 @@ export default {
 </script>
 
 <style lang="scss">
-
-@use 'sass:math';
-@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Noto+Sans+JP:wght@400;600&family=Zen+Old+Mincho:wght@400;600&display=swap');
+@use "sass:math";
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Noto+Sans+JP:wght@400;600&family=Zen+Old+Mincho:wght@400;600&display=swap");
 html {
   font-size: calc(12px + 10 * (100vw - 375px) / 1545);
 }
@@ -73,9 +77,8 @@ h6 {
   text-align: left;
   hyphens: none;
   color: $text-color;
-  font-family:'Arvo','Noto Sans JP', 
-  sans-serif,'Yu Mincho', /* Windows用 */
-  serif;
+  font-family: "Arvo", "Noto Sans JP", sans-serif, "Yu Mincho",
+    /* Windows用 */ serif;
 }
 
 h1 {
@@ -121,24 +124,17 @@ p {
   word-break: break-word;
   overflow-wrap: normal;
   margin: 0%;
+  line-height: 180%;
 }
-
-
-
 
 @mixin media-query($width) {
   @media (max-width: $width) {
-      @content;
+    @content;
   }
 }
 
-
-
 #app {
-  font-family:
-    'Yu Mincho', /* Windows用 */
-    'Zen Old Mincho',
-    'Noto Sans JP',
+  font-family: "Yu Mincho", /* Windows用 */ "Zen Old Mincho", "Noto Sans JP",
     serif;
   animation-name: fadeInAnime;
   animation-duration: 2s;
@@ -151,11 +147,11 @@ p {
 
 @keyframes fadeInAnime {
   from {
-      opacity: 0;
+    opacity: 0;
   }
 
   to {
-      opacity: 1;
+    opacity: 1;
   }
 }
 
@@ -184,20 +180,19 @@ p {
   color: $text-color;
 }
 
-
 .selector-for-some-widget {
   box-sizing: content-box;
 }
 
-.row{
+.row {
   --bs-gutter-x: 0;
 }
 
 a {
-  text-decoration:none;
+  text-decoration: none;
 }
 
-.contents-top{
+.contents-top {
   text-align: center;
   padding: 1rem 0rem;
 }
@@ -217,20 +212,19 @@ a {
   }
 }
 
-.wrapper{
+.wrapper {
   width: 70%;
   padding: 2rem;
   @include media-query($large-content-width) {
     width: 70%;
   }
-  
+
   @include media-query($medium-content-width) {
     width: 80%;
   }
-  
+
   @include media-query($small-content-width) {
     width: 90%;
   }
 }
-
 </style>
