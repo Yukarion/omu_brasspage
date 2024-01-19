@@ -1,6 +1,6 @@
 <template>
   <div class="advertise">
-    <HeroImage fileName="header_Ad.png" title="部員募集" />
+    <HeroImage fileName="advertise_header.png" title="部員募集" />
     <div class="large-wrapper">
       <div class="wrapper">
         <div class="contents-top">
@@ -91,9 +91,14 @@
         </div>
         <div>
           <h1>Q&A</h1>
-          <div class="contents-top">
-            活動に関する質問は<a href="https://peing.net/ja/omuwind">質問箱</a
-            >にて受付して<span>ます。</span><br />些細な質問でも気軽にどうぞ！
+          <div class="contents-top wrapper-with-icon">
+            <figure class="icon-qa">
+              <img src="../assets/advertise_icon_QA.png" />
+            </figure>
+            <p>
+              活動に関する質問は<a href="https://peing.net/ja/omuwind">質問箱</a
+              >にて受付てます。<br />些細な質問でも気軽にどうぞ！
+            </p>
           </div>
           <table class="table_qa">
             <tr>
@@ -219,6 +224,16 @@ table.table_qa tr {
   border-bottom: solid 1px gray;
 }
 
+.wrapper-with-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+  img {
+    width: 1rem * 5;
+    padding: 0.5rem;
+  }
+}
 .cell {
   display: flex;
   align-items: center;
@@ -254,7 +269,6 @@ table.table_qa tr {
 .gray {
   background-color: gray;
 }
-
 span {
   display: inline-block;
 }
