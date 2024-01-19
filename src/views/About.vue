@@ -16,13 +16,13 @@
           <h3>始令・音出し</h3>
           <div class="horizontal-line"></div>
         </div>
-        <div class="col-sm-12 col-md-8">
-          <p class="txt_side_1">部長による出欠確認と合奏予定の連絡から部活が始まります。
+        <div class="col-md-12 col-lg-6 content-wrapper">
+          <p class="txt_side">部長による出欠確認と合奏予定の連絡から部活が始まります。
           始礼から合奏までの時間は音出しという扱いですが、基礎練習・曲練習・パート練習など、時間の使い方は自由です。
           指令の時点で集まっている部員は半分ほどで、授業を終えていない公立大生や移動中の他大生もいることから、自由度のある時間として設けています。</p>
         </div>
-        <div class="col-sm-12 col-md-4">
-          <figure class="side_img"><img src="../assets/about_flow_1.png"></figure>
+        <div class="col-md-12 col-lg-6 content-wrapper">
+          <figure class="side_img "><img src="../assets/about_flow_1.png"></figure>
         </div>
       </div>
       <div class="row align-items-center">
@@ -33,14 +33,14 @@
           <h3>合奏</h3>
           <div class="horizontal-line"></div>
         </div>
-        <div class="col-sm-12 col-md-8">
-          <p class="txt_side_1">１曲あたり30~60分の合奏練習をします。
+        <div class="col-md-12 col-lg-6 content-wrapper">
+          <p class="txt_side">１曲あたり30~60分の合奏練習をします。
             当部には正指揮者と言われる3回生の指揮者と、副指揮者と言われる２回生の指揮者がいます。
             彼らの指導のもと合奏は進められますが、合奏中に奏者から意見をもらいながら曲の調整をする場面も多々見られます。
             全員で声を出し合って曲を作り上げていくのは、公立大吹奏楽部の特徴と言えるでしょう。
             </p>
         </div>
-        <div class="col-sm-12 col-md-4">
+        <div class="col-md-12 col-lg-6 content-wrapper">
           <figure class="side_img"><img src="../assets/about_flow_2.png"></figure>
           <figure class="side_img"><img src="../assets/about_flow_3.png"></figure>
         </div>
@@ -53,25 +53,25 @@
           <h3>終礼</h3>
           <div class="horizontal-line"></div>
         </div>
-        <div class="col-sm-12 col-md-8">
-          <p class="txt_side_1">部長をはじめ各役職から諸連絡をして、部活が終わります。
+        <div class="col-md-12 col-lg-6 content-wrapper">
+          <p class="txt_side">部長をはじめ各役職から諸連絡をして、部活が終わります。
           居残り練習をしたり、仲の良いもの同士で帰ったり、パートで食事に行ったりなど、終礼後の過ごし方は様々です。
           もちろん、居残り練習を強制するような雰囲気はありません。</p>
         </div>
-        <div class="col-sm-12 col-md-4">
+        <div class="col-md-12 col-lg-6 content-wrapper">
           <figure class="side_img"><img src="../assets/about_flow_1.png"></figure>
         </div>
       </div>
     </div>
     <h1>主な行事</h1>
     <div class="container">
-      <div class="row align-items-center">
+      <div class="row align-items-center content-wrapper">
         <div class="col-sm-12 col-md-6">
           <figure class="side_img"><img src="../assets/about_events_1.png"></figure>
         </div>
-        <div class="col-sm-12 col-md-6">
-          <h3><span id="StR">サマーコンサート</span></h3>
-          <p class="txt_time">開催時期：5月末</p>
+        <div class="col-sm-12 col-md-6 content-wrapper">
+          <h3>サマーコンサート</h3>
+          <p class="txt_season">開催時期：5月末</p>
           <p class="txt_side_2">有名な吹奏楽曲や、よく耳にするポップスを取り入れた劇を披露したりと、華やかな雰囲気を重視した演奏会となっています。
           １回生にとっては初めての部隊ですが、全ての曲に参加する必要はなく、劇中のダンスの練習などを通して吹奏楽部に馴染んでもらうことを目的としています。
           </p>
@@ -79,24 +79,24 @@
         <div class="border"></div>
       </div>
       <div class="row align-items-center">
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-md-6 content-wrapper">
           <figure class="side_img"><img src="../assets/about_events_2.png"></figure>
         </div>
-        <div class="col-sm-12 col-md-6">
-          <h3><span id="StR">阪神国公立大学吹奏楽連盟 合同演奏会</span></h3>
-          <p class="txt_time">開催時期：6月末</p>
+        <div class="col-sm-12 col-md-6 content-wrapper">
+          <h3>阪神国公立大学吹奏楽連盟<br/> 合同演奏会</h3>
+          <p class="txt_season">開催時期：6月末</p>
           <p class="txt_side_2">阪神国公立大学吹奏楽連盟に所属している六大学（大阪大学、大阪府立大学、大阪市立大学、大阪教育大学、奈良教育大学、神戸薬科大学）が開催した演奏会です。
           大学ごとのステージだけでなく、他大学どうしのメンバーがコラボしたステージを行いました。
           新型コロナウイルスの影響により、直近二年は中止となってしまいましたが、復活の意を込めて掲載しております。</p>
         </div>
         <div class="border"></div>
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-md-6 content-wrapper">
           <figure class="side_img"><img src="../assets/about_events_3.png"></figure>
         </div>
-        <div class="col-sm-12 col-md-6">
-          <h3><span id="StR">定期演奏会</span></h3>
-          <p class="txt_time">開催時期：11月末</p>
-          <p class="txt_side_2">1年の集大成となる演奏会です。
+        <div class="col-sm-12 col-md-6 content-wrapper">
+          <h3>定期演奏会</h3>
+          <p class="txt_season">開催時期：11月末</p>
+          <p class="">1年の集大成となる演奏会です。
           華やかさを重視したサマーコンサートに対して、定期演奏会では20分を超える難易度の高い大曲に挑戦したりと、大阪公立大学吹奏楽部の本気を試す機会となります。
           定期演奏会にて、3回生は引退となります。</p>
         </div>
@@ -110,6 +110,10 @@
 $large-content-width: 1090px;
 $medium-content-width: 768px;
 $small-content-width: 576px;
+$surface-color: #ffffff;
+$text-color: #484848;
+$brand-color: #c34242;
+
 
 @mixin media-query($width) {
   @media (max-width: $width) {
@@ -121,6 +125,11 @@ h3 {
   text-align: center;
 } 
 
+.contents_top{
+  text-align: center;
+  padding: 1rem 0rem;
+}
+
 .image_header img {
 	display: block;
 	width: 100%;
@@ -130,60 +139,45 @@ h3 {
 
 .horizontal-line {
   padding-left: 1rem;
-  width: 70%;
+  width: 75%;
   border: 1px solid #666666;
+  @include media-query($small-content-width) {
+    width: 60%;
+  }
 }
 
-
+.content-wrapper{
+  padding: 1rem 0.5rem;
+  line-height: 180%;
+  .txt_season{
+    padding: 0.5rem 0rem;
+    text-align: center;
+  }
+  .side_img img{
+    width: 100%;
+    height: auto;
+  }
+  
+}
 .icon-with-time {
   margin : 0.5rem;
   width: 1rem * 3.5;
   height: 1rem * 3.5;
-  background-color: #C34242;
+  background-color: $brand-color;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  color: white;
   aspect-ratio: 1 / 1;
   p {
     font-size: 0.8rem;
     text-align: center;
     margin: auto;
+    color: $surface-color;
   }
 }
-.icon img {
-  width: 3.4rem;
-  height: auto;
-}
 
-.side_img {
-  width: 100%;
-}
-.side_img img{
-  width: 100%;
-  height: auto;
-}
 
-p.txt_side_1 {
-  width: 100%;
-  text-align: left;
-  font-size: 0.8rem;
-  line-height: 200%;
-  padding-left: 20%;
-
-}
-p.txt_side_2 {
-  width: 100%;
-  text-align: left;
-  font-size: 0.8rem;
-  line-height: 200%;
-
-}
-
-p.txt_time{
-  text-align: left;
-}
 .header-wrapper-schedule {
   display: flex;
   align-items: center;
@@ -191,40 +185,10 @@ p.txt_time{
 }
 
 
-
-
-.head-border_2:before,
-.head-border_2:after {
-  content: "";
-  height: 1px;
-  flex-grow: 0.8;
-  background-color: #666;
-}
-
-.head-border_2:before {
-  margin-right: 1rem;
-  padding-right: 0rem;
-  opacity: 0;
-}
-
-.head-border_2:after {
-  margin-left: 1rem;
-  padding-left: 79%;
-}
-.border{
-  border: #666;
-  margin: 3% auto;
-}
-
 .container{
-  
-  width: 60%;
+  width: 70%;
   @include media-query($large-content-width) {
     width: 70%;
-    p.txt_side_1 {
-      padding-left: 10%;
-    }
-  
     p.txt_time {
       text-align: center;
     }
@@ -246,9 +210,6 @@ p.txt_time{
 
   @include media-query($medium-content-width) {
     width: 80%;
-    p.txt_side_1 {
-      padding: 0%;
-    }
   }
   
 
