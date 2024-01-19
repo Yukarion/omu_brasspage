@@ -59,6 +59,8 @@ export default {
 <style>
 .header {
   width: 100%;
+  min-height: 60px;
+  padding: 0.5rem 0.5rem;
   max-width: 100%;
   font-size: calc(1rem - 2 * (1920px - 100vw) / 1560);
   font-weight: 600;
@@ -94,7 +96,7 @@ export default {
 
 #header-items a {
   color: #2c3e50;
-  margin: auto calc(3vw - 0.4rem);
+  margin: auto calc(3vw - 0.3rem);
 }
 
 #brass-logo {
