@@ -5,7 +5,6 @@
       <div class="wrapper">
         <div class="contents-top">
           <h1>ようこそ公立大吹奏楽部へ！</h1>
-          <div class="contents_above">
               <p>
                 大阪公立大学吹奏楽部では年間を通じて部員を募集しています。<br />
                 まずは活動紹介をご覧ください。活動の用紙や部の雰囲気を紹介しております。
@@ -19,9 +18,8 @@
                 直接活動場所に出向いていただいても構いません。<br />
                 話を聞くだけや部の雰囲気を見たいだけの方でも大歓迎です！<br />
               </p>
-          </div>
         </div>
-        <div class="contents_below">
+        <div>
           <h1>募集要項</h1>
           <table class="table_Ad">
             <tr>

@@ -81,9 +81,9 @@
         </div>
       <div>
         <h1>主な行事</h1>
-        <div class="row align-items-center content-wrapper">
-          <div class="col-sm-12 col-md-6">
-            <figure class="side_img content-wrapper">
+        <div class="row align-items-center">
+          <div class="col-sm-12 col-md-6 content-wrapper">
+            <figure class="side_img">
               <img src="../assets/about_events_1.png" />
             </figure>
           </div>
@@ -99,7 +99,7 @@
         </div>
         <div class="row align-items-center">
           <div class="col-sm-12 col-md-6 content-wrapper">
-            <figure class="side_img content-wrapper">
+            <figure class="side_img">
               <img src="../assets/about_events_2.png" />
             </figure>
           </div>
@@ -117,7 +117,7 @@
           </div>
           <div class="border"></div>
           <div class="col-sm-12 col-md-6 content-wrapper">
-            <figure class="side_img content-wrapper">
+            <figure class="side_img">
               <img src="../assets/about_events_3.png" />
             </figure>
           </div>
