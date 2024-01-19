@@ -83,7 +83,7 @@ $small-content-width: 576px;
     font-size: 2.5rem;
     margin-bottom: 10px;
     color: white;
-    font-family:'Yu Mincho','Arvo','Noto Sans JP', 
+    font-family:'Zen Old Mincho','Yu Mincho','Arvo','Noto Sans JP', 
     sans-serif,serif;
     @include media-query($small-content-width) {
       font-size: 2rem;

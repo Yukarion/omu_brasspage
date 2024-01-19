@@ -31,7 +31,7 @@ export default {
 <style lang="scss">
 
 @use 'sass:math';
-@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Noto+Sans+JP&family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Noto+Sans+JP&family=Work+Sans:wght@300&family=Zen+Old+Mincho&display=swap');
 
 html {
   font-size: calc(12px + 10 * (100vw - 375px) / 1545);
@@ -141,15 +141,6 @@ p {
 }
 
 
-@font-face {
-  font-family:'ROCK';
-  src:url('./assets/fonts/ROCK.TTF');
-}
-
-@font-face {
-  font-family:'GOTHIC';
-  src:url('./assets/fonts/MSGOTHIC.TTF');
-}
 
 #nav {
   padding: 30px;
