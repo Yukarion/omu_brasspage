@@ -13,7 +13,7 @@
           <div class="icon-with-time">
             <p>16:30</p>
           </div>
-          <h2>始令・音出し</h2>
+          <h3>始令・音出し</h3>
           <div class="horizontal-line"></div>
         </div>
         <div class="col-sm-12 col-md-8">
@@ -30,7 +30,7 @@
           <div class="icon-with-time">
             <p>17:30</p>
           </div>
-          <h2>合奏</h2>
+          <h3>合奏</h3>
           <div class="horizontal-line"></div>
         </div>
         <div class="col-sm-12 col-md-8">
@@ -50,7 +50,7 @@
           <div class="icon-with-time">
             <p>19:00</p>
           </div>
-          <h2>終礼</h2>
+          <h3>終礼</h3>
           <div class="horizontal-line"></div>
         </div>
         <div class="col-sm-12 col-md-8">
@@ -117,29 +117,15 @@ $small-content-width: 576px;
   }
 }
 
-.about {
-  font-family :
-	'Yu Mincho', /* Windows用 */
-	serif;
-}
+h3 {
+  text-align: center;
+} 
+
 .image_header img {
 	display: block;
 	width: 100%;
 	height: auto;
   object-fit: cover;
-}
-h1{
-  margin: 5% auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-h3 {
-  text-align: left;
-  font-size: 1.2rem;
-  margin: 0%;
 }
 
 .horizontal-line {
@@ -178,9 +164,7 @@ h3 {
   width: 100%;
   height: auto;
 }
-.container{
-  width: 70%;
-}
+
 p.txt_side_1 {
   width: 100%;
   text-align: left;
@@ -206,37 +190,8 @@ p.txt_time{
   justify-content: space-between;
 }
 
-.head-border {
-  display: flex;
-  align-items: center;
-  h2 {
-    margin: 0;
-  }
-}
 
-.head-border:before,
-.head-border:after {
-  content: "";
-  height: 1px;
-  flex-grow: 0.8;
-  background-color: #666;
-}
 
-.head-border:before {
-  margin-right: 1rem;
-  padding-right: 0rem;
-  opacity: 0;
-}
-
-.head-border:after {
-  margin-left: 1rem;
-  padding-left: 70%;
-}
-
-.head-border_2 {
-  display: flex;
-  align-items: center;
-}
 
 .head-border_2:before,
 .head-border_2:after {
@@ -262,6 +217,7 @@ p.txt_time{
 }
 
 .container{
+  
   width: 60%;
   @include media-query($large-content-width) {
     width: 70%;
@@ -300,7 +256,5 @@ p.txt_time{
     width: 90%;
   }
 }
-
-#StR{background: linear-gradient(transparent 0%, #ffA0A0 0%);}
 
 </style>
