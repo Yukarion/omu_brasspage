@@ -3,7 +3,7 @@
     <HeroImage fileName="greeting_header.png" title="ごあいさつ" />
     <div class="large-wrapper">
       <div class="wrapper">
-        <h1>Osaka Metropolitan University<br />Wind Orchestra</h1>
+        <h1>Osaka Metropolitan University<span>Wind Orchestra</span></h1>
         <h2>大阪公立大学吹奏楽部</h2>
         <p>
           本日も大阪公立大学吹奏楽部のホームページをご覧いただき、誠にありがとうございます。
