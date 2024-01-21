@@ -26,9 +26,3 @@ export default {
 };
 </script>
 
-<style scoped>
-.greeting {
-  min-height: 80vh;
-  position: relative;
-}
-</style>
