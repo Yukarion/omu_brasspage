@@ -199,6 +199,7 @@ a {
 
 .large-wrapper {
   position: relative;
+  min-height: 70vh;
   margin-right: auto;
   margin-left: auto;
   display: flex;
