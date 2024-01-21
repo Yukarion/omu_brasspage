@@ -56,7 +56,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 .header {
   width: 100%;
   min-height: 60px;
@@ -64,8 +64,19 @@ export default {
   max-width: 100%;
   font-size: calc(1rem - 2 * (1920px - 100vw) / 1560);
   font-weight: 600;
-  font-family: "Zen Old Mincho", "Yu Mincho", "Arvo", "Noto Sans JP", sans-serif,
-    serif;
+
+  #header-items {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    height: 3rem;
+    text-align: end;
+    padding: 0.5rem 0rem;
+  }
 }
 
 .access-top {
@@ -81,18 +92,7 @@ export default {
   padding: 0.5rem 0.5rem;
 }
 
-#header-items {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  width: 100%;
-  height: 3rem;
-  text-align: end;
-  padding: 0.5rem 0rem;
-}
+
 
 #header-items a {
   color: #2c3e50;
