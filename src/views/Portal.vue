@@ -1,38 +1,35 @@
 <template>
   <div class="portal">
     <div class="image_header"><img src="../assets/portal_header.png" /></div>
-    <div class="portal_lap">
-      <div class="link container-md">
-        <h1 class="h3 mb-3 fw-normal">資料用ドライブ</h1>
-        <div class="googleDrive drive">
-          <a class="h3 row" href="">
-            <div class="image_ico col-3">
-              <img src="../assets/potal_GoogleDrive.png" />
+    <div class="large-wrapper">
+      <div class="wrapper">
+        <h1>資料用ドライブ</h1>
+          <a
+            class="link-wrapper"
+            href="https://drive.google.com/drive/folders/1SXHaCE8-s9hsAgtmteepCZVSI--vGQyB"
+          >
+            <div class="icon-drive">
+              <img src="../assets/portal_GoogleDrive.png" />
             </div>
-            <div class="drive_txt col-9">
-              <h1 class="h3 drive_name">大阪公立大学吹奏楽部 共有ドライブ</h1>
-              <p class="h6">
+            <div class="text-content">
+              <h2>大阪公立大学吹奏楽部 <span>共有ドライブ</span></h2>
+              <p>
                 演奏会写真・録音、引き継ぎ資料、重要書類などをまとめています。
               </p>
             </div>
           </a>
-        </div>
-        <div class="oneDrive drive">
-          <a class="h3 row" href="https://onedrive.live.com/about/ja-jp/">
-            <div class="image_ico col-3">
-              <img src="../assets/potal_OneDrive.png" />
+          <a class="link-wrapper" href="https://onedrive.live.com/about/ja-jp/">
+            <div class="icon-drive">
+              <img src="../assets/portal_OneDrive.png" />
             </div>
-            <div class="drive_txt col-9">
-              <h1 class="h3 drive_name">
-                旧 大阪府立大学吹奏楽部 共有ドライブ
-              </h1>
-              <p class="h6">
+            <div class="text-content">
+              <h2>旧 大阪府立大学吹奏楽部 <span>共有ドライブ</span></h2>
+              <p>
                 前身の大阪府立大学吹奏楽部の演奏会写真・録音、引き継ぎ資料、重要書類などをまとめています。
               </p>
             </div>
           </a>
         </div>
-      </div>
     </div>
   </div>
 </template>
@@ -47,34 +44,44 @@ export default {
 };
 </script>
 
-<style scoped>
-.portal {
+<style lang="scss">
+$large-content-width: 1090px;
+$medium-content-width: 768px;
+$small-content-width: 576px;
+$wrapper-padding: 20px;
+
+@mixin media-query($width) {
+  @media (max-width: $width) {
+    @content;
+  }
+}
+.link-wrapper {
+  display: flex;
   align-items: center;
-  padding-bottom: 10%;
+  max-width: 70%;
+  @include media-query($small-content-width) {
+    max-width: 90%;
+  }
 }
 
-.portal_lap {
-  width: calc(50% + 180px);
-  max-width: 95%;
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-drive {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  img{
+    width: 5rem;
+    height: 5rem;
+  }
+}
+.text-content {
   margin: auto;
-}
-
-.googleDrive {
-  margin-bottom: 5%;
-}
-
-.image_ico img {
-  max-width: 90%;
-}
-
-.drive_txt {
-  text-align: left;
-  color: black;
-}
-
-.drive_name {
-  padding-left: 0%;
-  text-align: left;
-  margin-bottom: 0%;
+  padding: 1rem;
 }
 </style>
