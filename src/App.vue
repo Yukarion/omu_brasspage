@@ -115,8 +115,13 @@ a {
     @media (hover: hover) {
       text-decoration: underline;
       opacity: 0.8;
+      color: $brand-color;
     }
   }
+}
+
+span {
+  display: inline-block;
 }
 
 p {
@@ -171,15 +176,6 @@ p {
   border: solid 3px transparent;
 }
 
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: $text-color;
-}
-
 .selector-for-some-widget {
   box-sizing: content-box;
 }
@@ -188,9 +184,7 @@ p {
   --bs-gutter-x: 0;
 }
 
-a {
-  text-decoration: none;
-}
+
 
 .contents-top {
   text-align: center;
@@ -199,7 +193,7 @@ a {
 
 .large-wrapper {
   position: relative;
-  min-height: 70vh;
+  min-height: 75vh;
   margin-right: auto;
   margin-left: auto;
   display: flex;
