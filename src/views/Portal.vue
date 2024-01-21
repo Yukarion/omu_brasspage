@@ -1,6 +1,6 @@
 <template>
   <div class="portal">
-    <div class="image_header"><img src="../assets/portal_header.png" /></div>
+    <HeroImage fileName="portal_header.png" title="部員ポータル" />
     <div class="large-wrapper">
       <div class="wrapper">
         <h1>資料用ドライブ</h1>
@@ -35,11 +35,11 @@
 </template>
 
 <script>
+import HeroImage from "@/components/HeroImage.vue";
+
 export default {
-  name: "Portal",
-  props: {
-    leaveTop: Function,
-    moveTop: Function,
+  components: {
+    HeroImage,
   },
 };
 </script>
