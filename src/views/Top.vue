@@ -1,12 +1,7 @@
 <template>
   <div class="top">
-    <div class="box_header">
-      <Header :leaveTop="leaveTop" :moveTop="moveTop" :isTop="true" id="text-white" class="contents_header"/>
-      <div class="image_header"><img src="../assets/topics_header.png"></div>
-    </div>
-    <div class="name">
-      <h1>Topics</h1>
-    </div>
+    <Header :leaveTop="leaveTop" :moveTop="moveTop" :isTop="true" id="text-white" class="contents_header"/>
+    <div class="image_header"><img src="../assets/topics_header.png"></div>
     <Topics />
   </div>
 </template>
@@ -32,10 +27,6 @@ export default {
 
 
 <style>
-h1 {
-  text-align: center;
-}
-
 .image_header img {
 	display: block;
 	width: 100%;
@@ -45,10 +36,6 @@ h1 {
 .contents_header{
   position:absolute;
   padding: 2%;
-}
-
-.box_header {
-  position: relative;
 }
 
 #text-white a {
