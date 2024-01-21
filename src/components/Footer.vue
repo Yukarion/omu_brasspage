@@ -42,72 +42,61 @@ export default {
 }
 </script>
 
-<style>
-.item {
-  white-space: nowrap;
-  padding: 0.5rem 0.5rem;
-}
+<style lang="scss">
+$surface-color: #ffffff;
+$text-color: #484848;
+$brand-color: #c34242;
 
 #footer {
-  background-color: #c34242;
+  background-color: $brand-color;
   width: 100%;
   font-size: calc(1rem - 2 * (1920px - 100vw) / 1560);
   font-weight: 600;
-  font-family: "Zen Old Mincho", "Yu Mincho", "Arvo", "Noto Sans JP", sans-serif,
-    serif;
+  a {
+    color: $surface-color;
+  }
+  .footer-in {
+    max-width: 75%;
+  }
+  #footer-items {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    height: 3rem;
+    text-align: end;
+    a {
+      margin: auto calc(3vw - 0.8rem);
+    }
+  }
 }
 
-#footer a {
-  color:#FFFFFF;
-}
-
-.footer-in {
-  max-width: 75%;
-}
-
-#footer-items {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  width: 100%;
-  height: 3rem;
-  text-align: end;
-}
-
-#footer-items a {
-  margin: auto calc(3vw - 0.8rem);
-}
 
 .items-lap {
   margin: auto;
   padding: calc(0.5rem - 4px) 0rem;
-}
-
-#vertical-line{
-  background-color: #FFFFFF;
-  color: #FFFFFF;
-  height: 3px;
-  margin: 0px;
+  .item {
+    white-space: nowrap;
+    padding: 0.5rem 0.5rem;
+  }
 }
 
 #copyright-lap{
   text-align: end;
   width: 100%;
+  #copyright{
+    transform: scale(0.7) translateX(25%);
+    color: $surface-color
+  }
 }
 
-#copyright{
-  transform: scale(0.7) translateX(25%);
-  color: #FFFFFF;
-  font-family:
-    'Yu Mincho', /* Windows用 */
-    serif;
-}
+
 
 .border{
-  border: #FFFFFF;
+  border: $surface-color;
   margin: 3% auto;
 }
 
