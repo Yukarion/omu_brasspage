@@ -52,12 +52,6 @@ h2 {
   color: $brand-color;
 }
 
-.container {
-  margin: auto;
-  max-width: 1500px;
-  padding: 0% 5%;
-}
-
 @media screen and (max-width: 576px) {
   .container {
     margin: auto;
