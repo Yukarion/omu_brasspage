@@ -1,10 +1,12 @@
 <template>
   <div class="youtube">
-    <div class v-if="load">
-      <iframe class="embed-responsive-item" :src="link" title="YouTube video player" allow=" fullscreen"></iframe>
-    </div>
-    <div v-else class="loading">
-      Now loading...
+    <div class="youtube-wrapper">
+      <div class v-if="load">
+        <iframe class="embed-responsive-item" :src="link" title="YouTube video player" allow=" fullscreen"></iframe>
+      </div>
+      <div v-else class="loading">
+        Now loading...
+      </div>
     </div>
   </div>
 </template>
@@ -38,26 +40,23 @@ export default {
 </script>
 
 <style>
+  .youtube{
+    width: 100%;
+    display: flex;
+  }
+  .youtube-wrapper{
+    width: 100%;
+    padding: 0rem;
+  }
 
   .loading{
     text-align: center;
     padding: 1rem 1rem
   }
   .embed-responsive-item {
-    width: 70%;
+    width: 100%;
     height: 45vw;
     padding-bottom: 3%;
   }
-  @media screen and (max-width: 767px) {
-    .embed-responsive-item {
-      width: 80%;
-      height: 45vw;
-    }
-  }
-  @media screen and (max-width: 532px) {
-    .embed-responsive-item {
-      width: 80%;
-      height: 45vw;
-    }
-  }
+
 </style>
