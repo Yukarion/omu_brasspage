@@ -7,7 +7,7 @@
       </div>
       <div class="image-overlay mask"></div>
       <img
-        :src="`src/assets/${fileName}`"
+        :src="`/img/${fileName}`"
         alt="Hero Image"
         class="image-overlay"
       />
