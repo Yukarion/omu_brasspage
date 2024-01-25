@@ -52,17 +52,4 @@ h2 {
   color: $brand-color;
 }
 
-@media screen and (max-width: 576px) {
-  .container {
-    margin: auto;
-    max-width: 1500px;
-    padding: 0% 5%;
-  }
-  #twitter {
-    width: 75%;
-  }
-  #instagram {
-    padding: 0%;
-  }
-}
 </style>
