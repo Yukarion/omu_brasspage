@@ -58,7 +58,7 @@ $wrapper-padding: 20px;
 .link-wrapper {
   display: flex;
   align-items: center;
-  max-width: 800px;
+  max-width: 824px;
   width: 70%;
   @include media-query($medium-content-width) {
     width: 90%;
