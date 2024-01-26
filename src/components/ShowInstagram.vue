@@ -9,7 +9,7 @@
           </a>
         </div>
       </div>
-      <div v-else>
+      <div v-else class="loading">
         Now loading...
       </div>
     </div>
@@ -45,11 +45,14 @@ export default {
 </script>
 
 <style>
-  .container {
-    margin: 0;
+  .loading{
+    text-align: center;
+    padding: 1rem 1rem
   }
   .row {
-  width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
   .col-4 {
   margin: 1%;
@@ -74,7 +77,8 @@ export default {
 
   @media screen and (max-width: 767px) {
     .col-4 {
-    max-width: 40%;
+      max-width: 40%;
+      width: 100%;
     }
     #box { padding: 0%; }
   }

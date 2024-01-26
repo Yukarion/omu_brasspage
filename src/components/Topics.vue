@@ -1,18 +1,21 @@
 <template>
-  <div class="container">
-    <div class="row align-items-center justify-content-center">
-      <div class="col-md-4" id="twitter">
-        <h6>Twitter</h6>
-        <ShowTwitter />
+  <div class="large-wrapper">
+    <div class="wrapper">
+      <h1>Topics</h1>
+      <div class="row">
+        <div class="col-md-4" id="twitter">
+          <h2>Twitter</h2>
+          <ShowTwitter />
+        </div>
+        <div class="col-md-8" id="instagram">
+          <h2>Instagram</h2>
+          <ShowInstagram />
+        </div>
       </div>
-      <div class="col-md-8" id="insta">
-        <h6>Instagram</h6>
-        <ShowInstagram />
-      </div>
+      <h2>Youtube</h2>
+      <ShowYouTube />
     </div>
   </div>
-  <h6>Youtube</h6>
-  <ShowYouTube />
 </template>
 
 <script>
@@ -21,11 +24,9 @@ import ShowTwitter from "@/components/ShowTwitter.vue";
 import ShowYouTube from "@/components/ShowYouTube.vue";
 export default {
   data() {
-    return {
-    }
+    return {};
   },
-  methods: {
-  },
+  methods: {},
   components: {
     ShowInstagram,
     ShowYouTube,
@@ -34,30 +35,21 @@ export default {
 };
 </script>
 
-<style>
-  h1{
-    padding: 3%;
-  }
-  h6{
-    font-size: 1.5rem;
-    color: #c34242;
-    padding: 2%;
-  }
+<style lang="scss">
+$large-content-width: 1090px;
+$medium-content-width: 768px;
+$small-content-width: 576px;
+$surface-color: #ffffff;
+$text-color: #484848;
+$brand-color: #c34242;
 
-  .container {
-    margin: auto;
-    max-width: 1500px;
-    padding: 0% 5%;
-  }
-
-  @media screen and (max-width: 576px){
-  .container {
-      margin: auto;
-      max-width: 1500px;
-      padding: 0% 5%;
-    
-  }
-  #twitter{width: 75%;}
-  #insta { padding: 0%;}
+h1 {
+  text-align: center;
 }
+
+h2 {
+  text-align: center;
+  color: $brand-color;
+}
+
 </style>

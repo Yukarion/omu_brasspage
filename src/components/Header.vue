@@ -3,20 +3,36 @@
     <div class="row">
       <div class="col-3 access-top">
         <router-link to="/" @click="moveTop()" v-if="isTop">
-          <img id="brass-logo" alt="omu_brass ico" src="../assets/omu_brass_logo_red.png" />
+          <img
+            id="brass-logo"
+            alt="omu_brass ico"
+            src="../assets/omu_brass_logo_red.png"
+          />
         </router-link>
       </div>
       <div class="col-9 menu">
         <div id="header-items">
           <div class="items-lap">
-            <router-link class="item" to="/greeting" @click="leaveTop()">ご挨拶</router-link>
-            <router-link class="item" to="/about" @click="leaveTop()">活動紹介</router-link>
-            <router-link class="item" to="/advertise" @click="leaveTop()">部員募集</router-link>
+            <router-link class="item" to="/greeting" @click="leaveTop()"
+              >ご挨拶</router-link
+            >
+            <router-link class="item" to="/about" @click="leaveTop()"
+              >活動紹介</router-link
+            >
+            <router-link class="item" to="/advertise" @click="leaveTop()"
+              >部員募集</router-link
+            >
           </div>
           <div class="items-lap">
-            <router-link class="item" to="/request" @click="leaveTop()">ご依頼</router-link>
-            <router-link class="item" to="/archive" @click="leaveTop()">過去の演奏会</router-link>
-            <router-link class="item" to="/portal" @click="leaveTop()">部員ポータル</router-link>
+            <router-link class="item" to="/request" @click="leaveTop()"
+              >ご依頼</router-link
+            >
+            <router-link class="item" to="/archive" @click="leaveTop()"
+              >過去の演奏会</router-link
+            >
+            <router-link class="item" to="/portal" @click="leaveTop()"
+              >部員ポータル</router-link
+            >
           </div>
         </div>
       </div>
@@ -34,19 +50,33 @@ export default {
   },
   data() {
     return {
-      isTop: this.isNotTop
-    }
+      isTop: this.isNotTop,
+    };
   },
 };
 </script>
 
-<style>
-
+<style lang="scss">
 .header {
   width: 100%;
+  min-height: 60px;
+  padding: 0.5rem 0.5rem;
   max-width: 100%;
   font-size: calc(1rem - 2 * (1920px - 100vw) / 1560);
-  font-family:'GOTHIC';
+  font-weight: 600;
+
+  #header-items {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    height: 3rem;
+    text-align: end;
+    padding: 0.5rem 0rem;
+  }
 }
 
 .access-top {
@@ -59,27 +89,17 @@ export default {
 
 .item {
   white-space: nowrap;
+  padding: 0.5rem 0.5rem;
 }
 
-#header-items{
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  width: 100%;
-  height: 3rem;
-  text-align: end;
-}
+
 
 #header-items a {
   color: #2c3e50;
-  margin: auto calc(3vw - 0.4rem);
+  margin: auto calc(3vw - 0.3rem);
 }
 
 #brass-logo {
   width: 100%;
 }
-
 </style>

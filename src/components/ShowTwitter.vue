@@ -1,5 +1,5 @@
 <template>
-  <div class="box">
+  <div class="twitter-wrapper">
     <a class="twitter-timeline" data-width="500" data-height="500" href="https://twitter.com/omu_wind?ref_src=twsrc%5Etfw">Tweets by omu_wind</a> 
   </div>
   
@@ -17,4 +17,11 @@ export default {
 </script>
 
 <style>
+.twitter-wrapper{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
 </style>
