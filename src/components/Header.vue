@@ -27,8 +27,10 @@
             <router-link class="item" to="/request" @click="leaveTop()"
               >ご依頼</router-link
             >
-            <router-link class="item" to="/archive" @click="leaveTop()"
-              >過去の演奏会</router-link
+            <a
+              class="item"
+              href="https://clammy-stay-455.notion.site/f39ed5b79cee41ed8445f34fd9328de9?v=6a940c4e7cd944dfa8574f0403cc2c23"
+              >過去の演奏会</a
             >
             <router-link class="item" to="/portal" @click="leaveTop()"
               >部員ポータル</router-link
@@ -91,8 +93,6 @@ export default {
   white-space: nowrap;
   padding: 0.5rem 0.5rem;
 }
-
-
 
 #header-items a {
   color: #2c3e50;
