@@ -4,27 +4,47 @@
       <div class="row">
         <div class="col-3 access-top">
           <router-link to="/" @click="moveTop()">
-            <img id="brass-logo" alt="omu_brass ico" src="../assets/omu_brass_logo_white.png" />
+            <img
+              id="brass-logo"
+              alt="omu_brass ico"
+              src="../assets/omu_brass_logo_white.png"
+            />
           </router-link>
         </div>
         <div class="col-9 menu">
           <div id="footer-items">
             <div class="items-lap">
-              <router-link class="item" to="/greeting" @click="leaveTop()">ご挨拶</router-link>
-              <router-link class="item" to="/about" @click="leaveTop()">活動紹介</router-link>
-              <router-link class="item" to="/advertise" @click="leaveTop()">部員募集</router-link>
+              <router-link class="item" to="/greeting" @click="leaveTop()"
+                >ご挨拶</router-link
+              >
+              <router-link class="item" to="/about" @click="leaveTop()"
+                >活動紹介</router-link
+              >
+              <router-link class="item" to="/advertise" @click="leaveTop()"
+                >部員募集</router-link
+              >
             </div>
             <div class="items-lap">
-              <router-link class="item" to="/request" @click="leaveTop()">ご依頼</router-link>
-              <router-link class="item" to="/archive" @click="leaveTop()">過去の演奏会</router-link>
-              <router-link class="item" to="/portal" @click="leaveTop()">部員ポータル</router-link>
+              <router-link class="item" to="/request" @click="leaveTop()"
+                >ご依頼</router-link
+              >
+              <a
+                class="item"
+                href="https://clammy-stay-455.notion.site/f39ed5b79cee41ed8445f34fd9328de9?v=6a940c4e7cd944dfa8574f0403cc2c23"
+                @click="leaveTop()"
+                >過去の演奏会</a
+              >
+              <router-link class="item" to="/portal" @click="leaveTop()"
+                >部員ポータル</router-link
+              >
             </div>
           </div>
         </div>
         <div class="border"></div>
         <div id="copyright-lap">
           <div id="copyright">
-            Copyright @ 2022 Osaka Metropolitan University Wind Orchestra All Right Reserved.
+            Copyright @ 2022 Osaka Metropolitan University Wind Orchestra All
+            Right Reserved.
           </div>
         </div>
       </div>
@@ -37,9 +57,9 @@ export default {
   name: "Footer",
   props: {
     leaveTop: Function,
-    moveTop: Function
-  }
-}
+    moveTop: Function,
+  },
+};
 </script>
 
 <style lang="scss">
@@ -74,7 +94,6 @@ $brand-color: #c34242;
   }
 }
 
-
 .items-lap {
   margin: auto;
   padding: calc(0.5rem - 4px) 0rem;
@@ -84,20 +103,17 @@ $brand-color: #c34242;
   }
 }
 
-#copyright-lap{
+#copyright-lap {
   text-align: end;
   width: 100%;
-  #copyright{
+  #copyright {
     transform: scale(0.7) translateX(25%);
-    color: $surface-color
+    color: $surface-color;
   }
 }
 
-
-
-.border{
+.border {
   border: $surface-color;
   margin: 3% auto;
 }
-
 </style>
